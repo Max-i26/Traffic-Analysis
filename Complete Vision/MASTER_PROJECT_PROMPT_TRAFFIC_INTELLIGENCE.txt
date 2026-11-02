@@ -1,0 +1,929 @@
+# MASTER PROJECT PROMPT — TRAFFIC INTELLIGENCE AI
+
+## 1. PROJECT IDENTITY
+
+Project Name: Traffic Intelligence AI
+
+Research Title: Neural Network-Based Traffic Scene Understanding, Lane Detection and Temporal Behaviour Analysis
+
+Project Type: Academic Neural Network / Deep Learning Research Project
+
+Primary Domain: Computer Vision, Neural Networks, Intelligent Transportation Systems
+
+Primary Programming Language: Python
+
+Deep Learning Framework: PyTorch
+
+Target Hardware: NVIDIA RTX 2050 Laptop GPU, 4 GB VRAM
+
+Operating System: Windows
+
+Project Storage: Dedicated data drive with approximately 50 GB initially available.
+
+This is a research-oriented project, not a simple application that combines existing pretrained models.
+
+The central objective is to design, implement, train, compare and evaluate neural network architectures for traffic scene understanding and eventually temporal traffic behaviour recognition.
+
+You are acting as our senior AI research engineer, computer vision architect, ML engineer and technical project mentor.
+
+Your responsibility is to guide and implement this project systematically, explain technical decisions and maintain professional research and engineering standards.
+
+Do not rush into training. Build the project in verified stages.
+
+---
+
+## 2. OVERALL RESEARCH OBJECTIVE
+
+Develop a modular intelligent traffic analysis system capable of:
+
+1. Detecting different vehicle categories.
+2. Detecting and segmenting road lane markings.
+3. Identifying drivable road areas.
+4. Tracking individual vehicles across video frames.
+5. Analysing vehicle movement and trajectories.
+6. Recognizing selected traffic behaviours and potential violations.
+7. Presenting the results through a usable traffic intelligence application.
+
+The research should investigate whether custom neural network architectures and temporal contextual learning can improve traffic scene understanding and behaviour recognition under challenging road conditions.
+
+Potential research question:
+
+"Can combining spatial road understanding with temporal vehicle movement analysis improve the reliability of traffic behaviour recognition compared with independent frame-based predictions?"
+
+Investigate performance under:
+- Partial vehicle occlusion.
+- Different lighting conditions.
+- Shadows and reflections.
+- Curved roads.
+- Faded or unclear lane markings.
+- Dense traffic.
+- Different camera perspectives.
+- Incomplete observations.
+
+Do not claim novelty without conducting a literature review and identifying a defensible research gap.
+
+---
+
+## 3. HARDWARE AND RESOURCE CONSTRAINTS
+
+Our hardware:
+
+- NVIDIA RTX 2050 Laptop GPU.
+- 4 GB VRAM.
+- Approximately 50 GB initially available on the dedicated project drive.
+- Windows.
+- Python 3.11 environment is preferred.
+- Existing PyTorch CUDA environment may already be installed.
+
+First inspect the real environment.
+
+Do not reinstall PyTorch, CUDA or other major dependencies without checking the existing installation.
+
+Run and record:
+
+- Python version.
+- PyTorch version.
+- CUDA availability.
+- GPU model.
+- Available VRAM.
+- Available disk storage.
+- Existing project and dataset directories.
+
+Optimize all experiments for the available GPU.
+
+Use:
+- Mixed precision where supported.
+- Small batch sizes.
+- Gradient accumulation when appropriate.
+- Efficient data loading.
+- Reduced image dimensions for initial experiments.
+- Checkpointing.
+- Configurable training parameters.
+- Memory-efficient architectures.
+
+Do not assume a model will fit in VRAM. Test a small batch before starting full training.
+
+Storage management is mandatory.
+
+Never automatically download large datasets, duplicate archives or extract every archive without approval.
+
+Keep a record of raw, extracted, processed and generated data sizes.
+
+---
+
+## 4. AVAILABLE DATASETS
+
+### A. TuSimple Lane Detection Dataset
+
+We have downloaded a TuSimple dataset archive.
+
+The visible structure currently includes:
+
+TUSimple/
+  train_set/
+    clips/
+    seg_label/
+    label_data_0313.json
+    label_data_0531.json
+    label_data_0601.json
+    readme
+
+The archive was approximately 23 GB according to the download listing.
+
+IMPORTANT:
+The official TuSimple guideline previously described a 9 GB archive. Our downloaded archive is larger. Do not assume it is identical or complete until it has been inspected.
+
+Tasks:
+
+1. Inspect the archive structure.
+2. Verify the image count.
+3. Inspect segmentation labels.
+4. Inspect JSON annotation records.
+5. Verify that annotation image paths exist.
+6. Verify that images and segmentation labels correspond.
+7. Identify image dimensions and formats.
+8. Check missing and duplicate files.
+9. Record dataset statistics.
+10. Preserve the original data without modification.
+
+TuSimple annotation format:
+
+{
+  "raw_file": "path/to/image.jpg",
+  "lanes": [],
+  "h_samples": []
+}
+
+Each lane contains horizontal image coordinates corresponding to vertical sample positions.
+
+Invalid or missing lane coordinates such as -2 must be handled correctly.
+
+Implement a parser that converts valid lane points into coordinate sequences.
+
+If segmentation masks are available in seg_label, inspect their encoding and use them where the mapping to original images is verified.
+
+Do not assume seg_label contains a particular mask format before inspecting it.
+
+If masks are absent or unsuitable, implement coordinate-to-mask conversion and document the conversion method.
+
+Never silently discard annotations.
+
+### B. BDD100K Dataset
+
+Previously collected or downloaded assets may include:
+
+- 100K Images.
+- Detection 2020 Labels.
+- Drivable Area labels.
+- Other available annotation packages.
+
+Inspect the actual local files before deciding what is available.
+
+Tasks:
+
+1. Verify archive integrity.
+2. Parse detection annotations.
+3. Identify supported vehicle classes.
+4. Verify image-to-label matching.
+5. Inspect drivable-area annotations.
+6. Document class distributions.
+7. Identify missing or unsupported annotations.
+
+Do not assume BDD100K provides verified traffic violation labels.
+
+Do not download BDD100K videos unless a later research requirement justifies their size and the user approves.
+
+### C. Additional datasets
+
+Investigate additional datasets only when necessary.
+
+Potential sources:
+- CULane.
+- LLAMAS.
+- AI City Challenge traffic datasets.
+- Other publicly available traffic trajectory and anomaly datasets.
+
+For every additional dataset, verify:
+- Original source.
+- Download availability.
+- Annotation format.
+- Licence and research restrictions.
+- Storage requirements.
+- Compatibility with our hardware.
+
+Do not download anything without approval.
+
+### DATASET GOVERNANCE
+
+Create a dataset registry documenting:
+
+- Dataset name.
+- Original source.
+- Version.
+- Download date.
+- Licence.
+- Archive size.
+- Extracted size.
+- Image count.
+- Annotation count.
+- Supported tasks.
+- Preprocessing operations.
+- Dataset split.
+- Checksum where available.
+
+Keep raw data immutable.
+
+---
+
+## 5. PROJECT ARCHITECTURE
+
+Create a modular, maintainable repository.
+
+Suggested structure:
+
+TRAFFIC-INTELLIGENCE-AI/
+│
+├── configs/
+│   ├── detection.yaml
+│   ├── lane_detection.yaml
+│   ├── segmentation.yaml
+│   ├── tracking.yaml
+│   └── temporal.yaml
+│
+├── datasets/
+│   ├── raw/
+│   ├── extracted/
+│   ├── processed/
+│   ├── annotations/
+│   ├── splits/
+│   └── dataset_registry.yaml
+│
+├── src/
+│   ├── data/
+│   │   ├── dataset_audit.py
+│   │   ├── dataset_registry.py
+│   │   ├── annotation_parser.py
+│   │   ├── preprocessing.py
+│   │   ├── augmentation.py
+│   │   └── dataset_loaders.py
+│   │
+│   ├── models/
+│   │   ├── detection/
+│   │   ├── lane_detection/
+│   │   ├── segmentation/
+│   │   └── temporal/
+│   │
+│   ├── training/
+│   │   ├── trainer.py
+│   │   ├── losses.py
+│   │   ├── optimizer.py
+│   │   └── callbacks.py
+│   │
+│   ├── evaluation/
+│   │   ├── metrics.py
+│   │   ├── benchmark.py
+│   │   ├── error_analysis.py
+│   │   └── visualization.py
+│   │
+│   ├── tracking/
+│   ├── inference/
+│   ├── integration/
+│   └── utils/
+│
+├── app/
+│   ├── components/
+│   ├── pages/
+│   └── main.py
+│
+├── experiments/
+│   ├── lane_detection/
+│   ├── vehicle_detection/
+│   ├── segmentation/
+│   └── temporal/
+│
+├── checkpoints/
+├── logs/
+├── reports/
+├── tests/
+│
+├── scripts/
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+
+You may improve this structure when technically justified.
+
+Do not create empty files simply to make the repository look complete.
+
+---
+
+## 6. MODEL DEVELOPMENT
+
+### MODULE A — LANE DETECTION
+
+This is our first priority because the TuSimple dataset is already available.
+
+Research objective:
+
+Build and compare custom neural network approaches for lane detection.
+
+Model A1: Custom CNN-based lane segmentation network.
+
+Model A2: Custom U-Net.
+
+Model A3: CNN-based direct lane-coordinate prediction.
+
+Optional Model A4: Lightweight Vision Transformer or hybrid CNN-Transformer segmentation model.
+
+Implement these architectures ourselves rather than simply loading an existing pretrained lane detector.
+
+Investigate:
+- Encoder architecture.
+- Feature extraction.
+- Multi-scale feature fusion.
+- Decoder design.
+- Skip connections.
+- Output representation.
+- Loss functions.
+- Optimization.
+
+For segmentation, investigate:
+- Binary lane masks.
+- Multi-class lane masks if the available labels support them.
+- Dice loss.
+- Binary cross-entropy.
+- Combined BCE and Dice loss.
+
+For coordinate prediction, investigate an appropriate coordinate or structured lane prediction loss.
+
+Evaluation:
+- Intersection over Union.
+- Dice coefficient.
+- Precision.
+- Recall.
+- Pixel accuracy.
+- Official TuSimple benchmark metric where compatible.
+- Inference latency.
+- FPS.
+
+Keep coordinate benchmark metrics and segmentation metrics separate.
+
+Do not compare two models using incompatible output definitions without explaining the difference.
+
+### MODULE B — VEHICLE DETECTION
+
+Use BDD100K detection annotations where available.
+
+Develop a lightweight custom detector:
+
+- Custom CNN backbone.
+- Multi-scale feature extraction.
+- Feature pyramid where feasible.
+- Detection head.
+- Bounding-box regression.
+- Object classification.
+
+Use an appropriate detection loss.
+
+Train the custom architecture from random initialization for the primary experiment.
+
+A pretrained detector may be used as an external baseline, but it must not replace the custom model.
+
+Potential classes:
+- Car.
+- Motorcycle.
+- Bus.
+- Truck.
+- Three-wheeler only if suitable annotations are available.
+
+Do not invent missing classes or relabel unrelated objects.
+
+Evaluation:
+- mAP@0.5.
+- mAP@0.5:0.95.
+- Precision.
+- Recall.
+- Per-class AP.
+- FPS.
+- Model size.
+
+### MODULE C — ROAD SEGMENTATION
+
+Use verified BDD100K drivable-area annotations where available.
+
+Investigate:
+- Custom U-Net.
+- DeepLabV3+ comparison.
+- Lightweight encoder-decoder architecture.
+
+Evaluate:
+- Mean IoU.
+- Dice.
+- Pixel accuracy.
+- Per-class performance where applicable.
+
+### MODULE D — VEHICLE TRACKING
+
+Use a tracking method such as ByteTrack after object detection.
+
+Track each detected vehicle across frames.
+
+Extract:
+- Track ID.
+- Bounding-box centre.
+- Position.
+- Estimated direction.
+- Displacement.
+- Approximate speed where camera calibration supports it.
+- Lane association.
+- Trajectory history.
+
+Important:
+Pixel displacement is not automatically real-world speed.
+
+Do not report km/h without calibration or a defensible conversion method.
+
+### MODULE E — TEMPORAL TRAFFIC BEHAVIOUR
+
+This is the higher-level research component.
+
+Potential events:
+
+1. Wrong-way movement.
+2. Red-light violation.
+3. Illegal lane change.
+4. Lane departure.
+5. Unusual or anomalous vehicle movement.
+
+These events require proper temporal labels or rule-based ground truth.
+
+Do not assume a lane change is illegal.
+
+Do not infer red-light violations without traffic-light state and stop-line information.
+
+Do not infer wrong-way driving without road direction and lane geometry.
+
+Develop:
+
+Model E1: CNN + LSTM.
+
+Model E2: Temporal Transformer.
+
+Possible input features:
+
+- Vehicle position history.
+- Direction.
+- Displacement.
+- Lane association.
+- Lane boundary crossing.
+- Traffic signal state.
+- Stop-line crossing.
+- Relative vehicle movement.
+- Observation confidence.
+
+Use fixed-length temporal sequences.
+
+Explore 16-frame and 32-frame sequences as initial configurations, subject to hardware constraints.
+
+Evaluation:
+- Macro F1.
+- Precision.
+- Recall.
+- Per-class F1.
+- Confusion matrix.
+- Event-level precision and recall.
+- False-positive rate.
+- Inference latency.
+
+Create or obtain a verified event dataset before training a supervised violation classifier.
+
+If only a small annotated dataset is available, clearly describe the limitations and use rule-based event detection as a separately evaluated baseline.
+
+---
+
+## 7. DATA PREPROCESSING AND DATA QUALITY
+
+Implement a reliable preprocessing pipeline.
+
+Requirements:
+
+1. Validate every annotation path.
+2. Detect corrupt images.
+3. Identify duplicate images.
+4. Inspect image dimensions.
+5. Handle missing annotations.
+6. Normalize image inputs.
+7. Apply appropriate resizing.
+8. Generate segmentation masks.
+9. Preserve label consistency.
+10. Produce deterministic dataset splits.
+11. Save preprocessing metadata.
+12. Record random seeds.
+
+Avoid train-validation-test leakage.
+
+For video-derived datasets, split by original clip, video or recording session rather than randomly distributing adjacent frames.
+
+Use augmentation carefully:
+- Horizontal flips only when semantically valid.
+- Brightness and contrast.
+- Small geometric transformations.
+- Blur.
+- Weather-like perturbations where justified.
+
+Do not apply transformations that invalidate lane or traffic-rule geometry.
+
+Create visual inspections of:
+- Original image.
+- Ground-truth annotations.
+- Processed image.
+- Generated mask.
+- Model prediction.
+
+---
+
+## 8. EXPERIMENT MANAGEMENT
+
+Every experiment must be reproducible.
+
+Track:
+- Model architecture.
+- Dataset version.
+- Dataset split.
+- Image dimensions.
+- Batch size.
+- Learning rate.
+- Optimizer.
+- Loss function.
+- Epochs.
+- Random seed.
+- Training time.
+- GPU utilization.
+- Validation metrics.
+- Best checkpoint.
+
+Use TensorBoard or MLflow where appropriate.
+
+Save:
+- Best checkpoint.
+- Last checkpoint.
+- Configuration.
+- Training logs.
+- Evaluation report.
+
+Do not overwrite previous successful experiments.
+
+Use versioned experiment names.
+
+---
+
+## 9. TRAINING STRATEGY
+
+Start with small experiments.
+
+Suggested initial lane model settings:
+
+- Input resolution: approximately 512 × 288 or another verified compatible size.
+- Batch size: 2–4.
+- Optimizer: AdamW.
+- Mixed precision where supported.
+- Initial epochs: 5–10 for pipeline validation.
+- Full training schedule only after successful validation.
+
+These are starting points, not fixed guarantees.
+
+Monitor:
+- Training loss.
+- Validation loss.
+- Overfitting.
+- GPU memory.
+- Learning rate.
+- Per-class performance.
+
+Implement:
+- Early stopping.
+- Best-model saving.
+- Learning-rate scheduling.
+- Gradient clipping where appropriate.
+- Resume-from-checkpoint support.
+
+Never report training metrics as test metrics.
+
+Keep a final untouched test split.
+
+---
+
+## 10. INTEGRATION ARCHITECTURE
+
+The final system should follow this logical pipeline:
+
+Input video
+    |
+    v
+Frame extraction
+    |
+    +-----------------------------+
+    |                             |
+    v                             v
+Vehicle detector             Lane detector
+    |                             |
+    v                             v
+Vehicle bounding boxes       Lane geometry
+    |                             |
+    +--------------+--------------+
+                   |
+                   v
+            Vehicle tracking
+                   |
+                   v
+          Trajectory extraction
+                   |
+                   v
+         Temporal behaviour model
+                   |
+                   v
+         Traffic event verification
+                   |
+                   v
+          Visualization dashboard
+
+The integrated system should display:
+
+- Original video.
+- Vehicle bounding boxes.
+- Vehicle category.
+- Tracking IDs.
+- Lane markings.
+- Drivable area.
+- Vehicle trajectories.
+- Potential event alerts.
+- Confidence scores.
+- Processing time.
+
+The system should support video uploads and saved result reports.
+
+Human review must be required before treating a predicted event as a confirmed violation.
+
+This is a research and decision-support tool, not an autonomous legal enforcement system.
+
+---
+
+## 11. APPLICATION DEVELOPMENT
+
+Develop a clean, professional interface after the individual models work.
+
+Suggested technology:
+- Streamlit for the first research prototype.
+- FastAPI if a separate inference API becomes useful.
+- OpenCV for video processing.
+- PyTorch for model inference.
+
+The application should include:
+
+1. Dashboard.
+2. Video upload.
+3. Model selection.
+4. Detection visualization.
+5. Lane segmentation visualization.
+6. Vehicle tracking.
+7. Event analysis.
+8. Processing statistics.
+9. Exportable reports.
+
+Keep inference logic separate from UI logic.
+
+Do not build an elaborate interface before validating the models.
+
+---
+
+## 12. RESEARCH AND REPORTING
+
+Prepare proper academic research documentation.
+
+Include:
+
+- Introduction.
+- Research motivation.
+- Problem statement.
+- Research objectives.
+- Research questions.
+- Literature review.
+- Dataset descriptions.
+- Dataset limitations.
+- Methodology.
+- Architecture diagrams.
+- Mathematical formulation where appropriate.
+- Training configuration.
+- Experimental design.
+- Results.
+- Comparative analysis.
+- Ablation studies.
+- Error analysis.
+- Limitations.
+- Ethical considerations.
+- Conclusion.
+- References.
+
+Potential ablation experiments:
+
+- CNN versus U-Net.
+- Coordinate prediction versus segmentation.
+- Different image resolutions.
+- Different loss functions.
+- Different augmentation strategies.
+- CNN-LSTM versus temporal Transformer.
+- Spatial-only versus spatial-temporal behaviour features.
+
+Do not invent research results, citations or benchmark scores.
+
+Use original sources and correctly cite datasets and papers.
+
+Discuss domain shift: models trained on one geographical setting may not work reliably in Sri Lankan traffic without additional data and validation.
+
+---
+
+## 13. TESTING AND SOFTWARE QUALITY
+
+Implement tests for:
+
+- Dataset loading.
+- Annotation parsing.
+- Mask generation.
+- Dataset splitting.
+- Model output dimensions.
+- Loss calculations.
+- Training checkpointing.
+- Evaluation metrics.
+- Inference.
+- Video processing.
+- API and application logic.
+
+Use clear error messages.
+
+Validate configuration files.
+
+Avoid hardcoded machine-specific paths.
+
+Use environment configuration and pathlib.
+
+Keep code modular, documented and reproducible.
+
+Never silently swallow exceptions.
+
+---
+
+## 14. STRICT DEVELOPMENT RULES
+
+1. Do not download datasets automatically.
+2. Do not delete or overwrite raw data.
+3. Do not extract massive archives without checking available storage.
+4. Do not start full training before data validation.
+5. Do not claim a model is custom if it is simply a pretrained model with a different name.
+6. Do not fabricate results.
+7. Do not invent labels.
+8. Do not mix training and testing data.
+9. Do not report unsupported traffic violations.
+10. Do not sacrifice research quality for an impressive demo.
+11. Explain important technical decisions.
+12. Maintain a development log.
+13. Save every experiment configuration.
+14. Make every training script reproducible.
+15. Optimize for our RTX 2050 4 GB GPU.
+16. Ask for approval before expensive downloads or large training runs.
+
+---
+
+## 15. DEVELOPMENT PHASES AND APPROVAL GATES
+
+Work incrementally.
+
+PHASE 0 — Environment and repository audit
+- Inspect current machine.
+- Inspect available datasets.
+- Inspect project directories.
+- Inspect GPU and dependencies.
+- Calculate storage usage.
+- Create project architecture and documentation.
+
+PHASE 1 — Dataset validation
+- Inspect TuSimple archive.
+- Inspect BDD100K assets.
+- Validate image and annotation matching.
+- Generate dataset reports.
+- Create visual samples.
+
+PHASE 2 — Data engineering
+- Implement loaders.
+- Implement annotation parsing.
+- Generate masks where necessary.
+- Create leakage-safe splits.
+- Add automated tests.
+
+PHASE 3 — Lane detection experiments
+- Implement custom CNN segmentation.
+- Implement custom U-Net.
+- Implement coordinate prediction.
+- Train small pilot runs.
+- Evaluate and compare.
+
+PHASE 4 — Vehicle detection and road segmentation
+- Implement custom detector.
+- Implement road segmentation.
+- Train and evaluate.
+- Compare with appropriate baselines.
+
+PHASE 5 — Tracking
+- Integrate detector and tracker.
+- Generate trajectory features.
+- Validate tracking performance.
+
+PHASE 6 — Temporal behaviour research
+- Identify event datasets.
+- Define traffic rules.
+- Establish ground truth.
+- Implement CNN-LSTM.
+- Implement temporal Transformer.
+- Compare performance.
+
+PHASE 7 — Full integration
+- Combine all validated components.
+- Build video inference pipeline.
+- Measure end-to-end latency.
+- Inspect failure cases.
+
+PHASE 8 — Application
+- Build dashboard.
+- Add video upload.
+- Add visualizations.
+- Add reports.
+
+PHASE 9 — Final research
+- Conduct final experiments.
+- Prepare comparisons.
+- Write documentation.
+- Complete tests.
+- Prepare demonstration and academic report.
+
+At the end of each phase:
+1. Summarize what was completed.
+2. Show generated files.
+3. Show validation results.
+4. Explain any issues.
+5. Identify the next phase.
+6. Wait for our approval before moving into expensive or destructive operations.
+
+---
+
+## 16. YOUR FIRST TASK — DO NOT START TRAINING
+
+Start with PHASE 0 and PHASE 1 planning only.
+
+First, inspect the actual environment and existing files.
+
+Pay particular attention to the downloaded TuSimple archive, currently visible in a directory resembling:
+
+E:\Neural_Network_project\Data\archive (1)\TUSimple\train_set
+
+Do not assume that this path is final or that the archive is fully extracted.
+
+Inspect:
+- clips/
+- seg_label/
+- label_data_0313.json
+- label_data_0531.json
+- label_data_0601.json
+- readme
+
+Find the actual project root and existing BDD100K files.
+
+Generate:
+
+1. environment_report.md
+2. dataset_inventory.md
+3. dataset_quality_report.md
+4. project_architecture.md
+5. development_roadmap.md
+6. initial configuration files
+7. dataset audit scripts
+8. initial unit tests
+
+For every dataset, show:
+- What we have.
+- What is missing.
+- What is usable.
+- What needs conversion.
+- What is uncertain.
+- How much storage is required.
+
+Do not start model training yet.
+
+Do not modify original datasets.
+
+At the end, present the audit findings and ask for approval to proceed to the next stage.
+
+OUR FINAL GOAL:
+
+Build a scientifically defensible, well-engineered Traffic Intelligence AI research system with custom-trained neural networks, rigorous comparisons, temporal traffic analysis, a working demonstration and complete academic documentation.
+
+Quality, correctness, reproducibility and measurable research contribution are more important than rushing to a high accuracy number.

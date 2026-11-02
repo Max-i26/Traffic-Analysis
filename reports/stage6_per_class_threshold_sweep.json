@@ -1,0 +1,318 @@
+{
+  "car": {
+    "gt_count": 514,
+    "best_operating_threshold": 0.4,
+    "best_f1_score": 0.1876,
+    "sweep": [
+      {
+        "threshold": 0.1,
+        "tp": 168,
+        "fp": 4778,
+        "precision": 0.034,
+        "recall": 0.3268,
+        "f1": 0.0615
+      },
+      {
+        "threshold": 0.15,
+        "tp": 168,
+        "fp": 3894,
+        "precision": 0.0414,
+        "recall": 0.3268,
+        "f1": 0.0734
+      },
+      {
+        "threshold": 0.2,
+        "tp": 167,
+        "fp": 3103,
+        "precision": 0.0511,
+        "recall": 0.3249,
+        "f1": 0.0883
+      },
+      {
+        "threshold": 0.25,
+        "tp": 160,
+        "fp": 2289,
+        "precision": 0.0653,
+        "recall": 0.3113,
+        "f1": 0.108
+      },
+      {
+        "threshold": 0.3,
+        "tp": 149,
+        "fp": 1475,
+        "precision": 0.0917,
+        "recall": 0.2899,
+        "f1": 0.1394
+      },
+      {
+        "threshold": 0.35,
+        "tp": 129,
+        "fp": 737,
+        "precision": 0.149,
+        "recall": 0.251,
+        "f1": 0.187
+      },
+      {
+        "threshold": 0.4,
+        "tp": 86,
+        "fp": 317,
+        "precision": 0.2134,
+        "recall": 0.1673,
+        "f1": 0.1876
+      },
+      {
+        "threshold": 0.45,
+        "tp": 51,
+        "fp": 122,
+        "precision": 0.2948,
+        "recall": 0.0992,
+        "f1": 0.1485
+      },
+      {
+        "threshold": 0.5,
+        "tp": 26,
+        "fp": 28,
+        "precision": 0.4815,
+        "recall": 0.0506,
+        "f1": 0.0915
+      }
+    ]
+  },
+  "bus": {
+    "gt_count": 9,
+    "best_operating_threshold": 0.3,
+    "best_f1_score": 0.0153,
+    "sweep": [
+      {
+        "threshold": 0.1,
+        "tp": 1,
+        "fp": 735,
+        "precision": 0.0014,
+        "recall": 0.1111,
+        "f1": 0.0027
+      },
+      {
+        "threshold": 0.15,
+        "tp": 1,
+        "fp": 563,
+        "precision": 0.0018,
+        "recall": 0.1111,
+        "f1": 0.0035
+      },
+      {
+        "threshold": 0.2,
+        "tp": 1,
+        "fp": 399,
+        "precision": 0.0025,
+        "recall": 0.1111,
+        "f1": 0.0049
+      },
+      {
+        "threshold": 0.25,
+        "tp": 1,
+        "fp": 221,
+        "precision": 0.0045,
+        "recall": 0.1111,
+        "f1": 0.0087
+      },
+      {
+        "threshold": 0.3,
+        "tp": 1,
+        "fp": 121,
+        "precision": 0.0082,
+        "recall": 0.1111,
+        "f1": 0.0153
+      },
+      {
+        "threshold": 0.35,
+        "tp": 0,
+        "fp": 35,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "tp": 0,
+        "fp": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.45,
+        "tp": 0,
+        "fp": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  "truck": {
+    "gt_count": 20,
+    "best_operating_threshold": 0.45,
+    "best_f1_score": 0.0833,
+    "sweep": [
+      {
+        "threshold": 0.1,
+        "tp": 3,
+        "fp": 1845,
+        "precision": 0.0016,
+        "recall": 0.15,
+        "f1": 0.0032
+      },
+      {
+        "threshold": 0.15,
+        "tp": 3,
+        "fp": 1474,
+        "precision": 0.002,
+        "recall": 0.15,
+        "f1": 0.004
+      },
+      {
+        "threshold": 0.2,
+        "tp": 3,
+        "fp": 1088,
+        "precision": 0.0027,
+        "recall": 0.15,
+        "f1": 0.0054
+      },
+      {
+        "threshold": 0.25,
+        "tp": 2,
+        "fp": 492,
+        "precision": 0.004,
+        "recall": 0.1,
+        "f1": 0.0078
+      },
+      {
+        "threshold": 0.3,
+        "tp": 1,
+        "fp": 184,
+        "precision": 0.0054,
+        "recall": 0.05,
+        "f1": 0.0098
+      },
+      {
+        "threshold": 0.35,
+        "tp": 1,
+        "fp": 54,
+        "precision": 0.0182,
+        "recall": 0.05,
+        "f1": 0.0267
+      },
+      {
+        "threshold": 0.4,
+        "tp": 1,
+        "fp": 13,
+        "precision": 0.0714,
+        "recall": 0.05,
+        "f1": 0.0588
+      },
+      {
+        "threshold": 0.45,
+        "tp": 1,
+        "fp": 3,
+        "precision": 0.25,
+        "recall": 0.05,
+        "f1": 0.0833
+      },
+      {
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  "motorcycle": {
+    "gt_count": 3,
+    "best_operating_threshold": 0.35,
+    "best_f1_score": 0.0,
+    "sweep": [
+      {
+        "threshold": 0.1,
+        "tp": 0,
+        "fp": 845,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.15,
+        "tp": 0,
+        "fp": 821,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.2,
+        "tp": 0,
+        "fp": 811,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.25,
+        "tp": 0,
+        "fp": 755,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "tp": 0,
+        "fp": 563,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.35,
+        "tp": 0,
+        "fp": 303,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "tp": 0,
+        "fp": 143,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.45,
+        "tp": 0,
+        "fp": 60,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ]
+  }
+}

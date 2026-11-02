@@ -1,0 +1,60 @@
+{
+  "check1_vehicle_detection": {
+    "mAP50": 0.0005,
+    "mAP50_95": 0.0001,
+    "overall_precision_at_50": 0.0078,
+    "overall_recall_at_50": 0.0515,
+    "per_class": {
+      "car": {
+        "AP50": 0.0005,
+        "AP50_95": 0.0001,
+        "GT_count": 474,
+        "Pred_count": 3350
+      },
+      "bus": {
+        "AP50": 0.0,
+        "AP50_95": 0.0,
+        "GT_count": 8,
+        "Pred_count": 0
+      },
+      "truck": {
+        "AP50": 0.0,
+        "AP50_95": 0.0,
+        "GT_count": 20,
+        "Pred_count": 0
+      },
+      "motorcycle": {
+        "AP50": 0.0,
+        "AP50_95": 0.0,
+        "GT_count": 3,
+        "Pred_count": 0
+      }
+    }
+  },
+  "check2_road_segmentation": {
+    "mean_iou": 0.6952,
+    "mean_dice": 0.8114,
+    "pixel_accuracy": 0.8672,
+    "class_drivable_road": {
+      "iou": 0.5488,
+      "dice": 0.7087,
+      "precision": 0.6025,
+      "recall": 0.8603
+    },
+    "class_non_drivable_bg": {
+      "iou": 0.8417,
+      "dice": 0.914,
+      "precision": 0.9642,
+      "recall": 0.8689
+    }
+  },
+  "check4_benchmark_validation": {
+    "resolution": "512x288",
+    "preprocessing_ms": 7.43,
+    "gpu_dual_inference_ms": 44.2,
+    "postprocessing_ms": 1.26,
+    "total_end_to_end_latency_ms": 52.89,
+    "pure_gpu_inference_fps": 22.6,
+    "end_to_end_pipeline_fps": 18.9
+  }
+}

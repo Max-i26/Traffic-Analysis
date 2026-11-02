@@ -1,0 +1,35 @@
+{
+  "Mode A: Standard Hard-NMS": {
+    "mAP50": 0.0296,
+    "mAP75": 0.0006,
+    "mAP50_95": 0.0081,
+    "car_ap50": 0.0953,
+    "bus_ap50": 0.0028,
+    "truck_ap50": 0.0202,
+    "moto_ap50": 0.0,
+    "suppression_latency_ms": 33.62,
+    "val_per_frame_total_ms": 212.91
+  },
+  "Mode B: Cnt-Weighted Fast Hard-NMS": {
+    "mAP50": 0.0258,
+    "mAP75": 0.0007,
+    "mAP50_95": 0.0068,
+    "car_ap50": 0.086,
+    "bus_ap50": 0.0018,
+    "truck_ap50": 0.0153,
+    "moto_ap50": 0.0,
+    "suppression_latency_ms": 12.5,
+    "val_per_frame_total_ms": 188.4
+  },
+  "Mode C: Soft-NMS (Iterative)": {
+    "mAP50": 0.0223,
+    "mAP75": 0.0008,
+    "mAP50_95": 0.0062,
+    "car_ap50": 0.0765,
+    "bus_ap50": 0.0008,
+    "truck_ap50": 0.0121,
+    "moto_ap50": 0.0,
+    "suppression_latency_ms": 39.41,
+    "val_per_frame_total_ms": 215.39
+  }
+}

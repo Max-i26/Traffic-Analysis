@@ -1,0 +1,58 @@
+{
+  "train": {
+    "total_images": 200,
+    "existing_images": 200,
+    "total_vehicles": 2148,
+    "class_breakdown": {
+      "car": 2009,
+      "bus": 41,
+      "truck": 90,
+      "motorcycle": 8
+    },
+    "scale_breakdown": {
+      "small (<32^2)": 1621,
+      "medium (32^2 - 96^2)": 415,
+      "large (>96^2)": 112
+    },
+    "degenerate_boxes": 0,
+    "clipped_boxes": 0,
+    "single_scale_stride8": {
+      "images_with_collisions": 58,
+      "overwritten_vehicles": 101,
+      "collision_loss_percentage": 4.7
+    },
+    "multiscale_fpn": {
+      "images_with_collisions": 6,
+      "overwritten_vehicles": 7,
+      "collision_loss_percentage": 0.33
+    }
+  },
+  "val": {
+    "total_images": 50,
+    "existing_images": 50,
+    "total_vehicles": 547,
+    "class_breakdown": {
+      "car": 515,
+      "bus": 9,
+      "truck": 20,
+      "motorcycle": 3
+    },
+    "scale_breakdown": {
+      "small (<32^2)": 397,
+      "medium (32^2 - 96^2)": 121,
+      "large (>96^2)": 29
+    },
+    "degenerate_boxes": 0,
+    "clipped_boxes": 0,
+    "single_scale_stride8": {
+      "images_with_collisions": 12,
+      "overwritten_vehicles": 20,
+      "collision_loss_percentage": 3.66
+    },
+    "multiscale_fpn": {
+      "images_with_collisions": 1,
+      "overwritten_vehicles": 1,
+      "collision_loss_percentage": 0.18
+    }
+  }
+}

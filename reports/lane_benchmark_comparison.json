@@ -1,0 +1,20 @@
+{
+  "Model A1 (Custom CNN)": {
+    "parameters": 2330529,
+    "inference_fps": 79.3,
+    "best_val_iou": 0.4056,
+    "final_val_iou": 0.4056,
+    "final_val_dice": 0.5731,
+    "precision": 0.4348,
+    "recall": 0.8506
+  },
+  "Model A2 (Custom U-Net)": {
+    "parameters": 7763041,
+    "inference_fps": 41.7,
+    "best_val_iou": 0.4874,
+    "final_val_iou": 0.4874,
+    "final_val_dice": 0.6499,
+    "precision": 0.6104,
+    "recall": 0.7041
+  }
+}

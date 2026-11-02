@@ -1,0 +1,117 @@
+{
+  "tester1_lane_detection": {
+    "Model A1 (Custom CNN)": {
+      "parameters": 2330529,
+      "iou": 0.4031,
+      "dice_f1": 0.5746,
+      "precision": 0.4334,
+      "recall": 0.8522,
+      "pixel_accuracy": 0.9471
+    },
+    "Model A2 (Custom U-Net)": {
+      "parameters": 7763041,
+      "iou": 0.489,
+      "dice_f1": 0.6568,
+      "precision": 0.6137,
+      "recall": 0.7064,
+      "pixel_accuracy": 0.969
+    }
+  },
+  "tester2_road_segmentation": {
+    "parameters": 1768657,
+    "drivable_surface_iou": 0.5488,
+    "drivable_surface_dice": 0.7087,
+    "drivable_surface_precision": 0.6025,
+    "drivable_surface_recall": 0.8603,
+    "background_iou": 0.8417,
+    "mean_iou": 0.6952,
+    "mean_dice": 0.8114,
+    "pixel_accuracy": 0.8672,
+    "confusion_matrix_pixels": {
+      "TP": 1190528,
+      "FP": 785394,
+      "FN": 193374,
+      "TN": 5203504
+    }
+  },
+  "tester3_vehicle_detection": {
+    "mAP50": 0.0296,
+    "mAP75": 0.0006,
+    "mAP50_95": 0.0081,
+    "per_class": {
+      "car": {
+        "AP50": 0.0953,
+        "AP75": 0.0025,
+        "AP50_95": 0.024,
+        "GT_count": 514,
+        "Pred_count": 4966,
+        "operational_precision": 0.1491,
+        "operational_recall": 0.251
+      },
+      "bus": {
+        "AP50": 0.0028,
+        "AP75": 0.0,
+        "AP50_95": 0.0003,
+        "GT_count": 9,
+        "Pred_count": 848,
+        "operational_precision": 0.0,
+        "operational_recall": 0.0
+      },
+      "truck": {
+        "AP50": 0.0202,
+        "AP75": 0.0,
+        "AP50_95": 0.0081,
+        "GT_count": 20,
+        "Pred_count": 2172,
+        "operational_precision": 0.0182,
+        "operational_recall": 0.05
+      },
+      "motorcycle": {
+        "AP50": 0.0,
+        "AP75": 0.0,
+        "AP50_95": 0.0,
+        "GT_count": 3,
+        "Pred_count": 858,
+        "operational_precision": 0.0,
+        "operational_recall": 0.0
+      }
+    },
+    "scale_ap50": {
+      "AP50_small (<32^2)": 0.009,
+      "AP50_medium (32^2-96^2)": 0.0498,
+      "AP50_large (>96^2)": 0.0052
+    },
+    "localization_geometry": {
+      "mean_iou": 0.6207,
+      "mean_center_error_x_px": 5.72,
+      "mean_center_error_y_px": 3.9,
+      "mean_width_ratio_pred_to_gt": 1.046,
+      "mean_height_ratio_pred_to_gt": 1.083
+    },
+    "gains_vs_v1_baseline": {
+      "relative_mAP50_multiplier": 148.0,
+      "relative_car_recall_multiplier": 4.9
+    }
+  },
+  "tester4_vehicle_tracking": {
+    "evaluated_sequence_frames": 20,
+    "total_active_tracks": 54,
+    "mean_track_lifespan_frames": 10.41,
+    "max_track_lifespan_frames": 20,
+    "lane_assignment_consistency_rate": 75.9,
+    "mean_pixel_velocity": 53.5
+  },
+  "tester5_hardware_profile": {
+    "resolution": "512x288",
+    "preprocessing_ms": 3.28,
+    "fcos_detector_forward_ms": 11.56,
+    "road_segmentor_forward_ms": 7.08,
+    "postprocessing_nms_ms": 19.7,
+    "detector_only_e2e_latency_ms": 34.54,
+    "dual_system_e2e_latency_ms": 41.61,
+    "detector_pipeline_fps": 29.0,
+    "dual_system_fps": 24.0,
+    "peak_vram_mb": 650.7,
+    "vram_headroom_percent": 84.1
+  }
+}

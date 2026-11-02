@@ -1,0 +1,54 @@
+{
+  "total_ground_truth_objects": 546,
+  "gt_covered_at_iou_50": 173,
+  "gt_covered_at_iou_75": 20,
+  "gt_coverage_rate_at_50_pct": 31.68,
+  "gt_coverage_rate_at_75_pct": 3.66,
+  "iou_distribution_bins": {
+    "[0.00, 0.25)": {
+      "count": 233,
+      "pct_of_all_gt": 42.67
+    },
+    "[0.25, 0.50)": {
+      "count": 140,
+      "pct_of_all_gt": 25.64
+    },
+    "[0.50, 0.60)": {
+      "count": 70,
+      "pct_of_all_gt": 12.82
+    },
+    "[0.60, 0.70)": {
+      "count": 61,
+      "pct_of_all_gt": 11.17
+    },
+    "[0.70, 0.75)": {
+      "count": 22,
+      "pct_of_all_gt": 4.03
+    },
+    "[0.75, 0.85)": {
+      "count": 16,
+      "pct_of_all_gt": 2.93
+    },
+    "[0.85, 1.00]": {
+      "count": 4,
+      "pct_of_all_gt": 0.73
+    }
+  },
+  "matching_at_operating_thresh_0_25": {
+    "threshold_0_50": {
+      "TP": 163,
+      "FP": 3760,
+      "Precision": 0.0415
+    },
+    "threshold_0_75": {
+      "TP": 20,
+      "FP": 3903,
+      "Precision": 0.0051
+    }
+  },
+  "coco_metrics": {
+    "mAP50": 0.0296,
+    "mAP75": 0.0006,
+    "mAP50_95": 0.0081
+  }
+}

@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Archives (Never commit raw datasets or huge annotation exports)
+/Data/
+datasets/raw/
+datasets/extracted/
+datasets/processed/
+datasets/annotations/
+datasets/detrac_benchmark/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model weights & Checkpoints
+*.pt
+*.pth
+*.onnx
+checkpoints/
+
+# Virtual environments
+venv/
+venv_wsl/
+.venv/
+env/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & temporary files
+.git_corrupt_bak/
+logs/
+*.log
+scratch/
+.system_generated/

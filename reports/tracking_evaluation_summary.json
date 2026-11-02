@@ -1,0 +1,9160 @@
+{
+  "total_frames": 20,
+  "detector_checkpoint": "checkpoints/fcos_v2_2_expanded.pt",
+  "average_pipeline_fps": 10.2,
+  "total_unique_track_ids": 56,
+  "frames": [
+    {
+      "frame": 1,
+      "fps": 0.1,
+      "detected_candidates": 167,
+      "active_tracks_count": 16,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.422,
+          "bbox": [
+            0,
+            76,
+            64,
+            133
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.409,
+          "bbox": [
+            272,
+            96,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 2,
+          "class": "car",
+          "score": 0.39,
+          "bbox": [
+            0,
+            83,
+            41,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.388,
+          "bbox": [
+            160,
+            100,
+            212,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.378,
+          "bbox": [
+            0,
+            93,
+            50,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.369,
+          "bbox": [
+            408,
+            96,
+            467,
+            144
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.413,
+          "bbox": [
+            0,
+            76,
+            77,
+            139
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.377,
+          "bbox": [
+            174,
+            90,
+            241,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "motorcycle",
+          "score": 0.497,
+          "bbox": [
+            403,
+            105,
+            440,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.416,
+          "bbox": [
+            0,
+            87,
+            51,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.4,
+          "bbox": [
+            410,
+            107,
+            457,
+            149
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "motorcycle",
+          "score": 0.368,
+          "bbox": [
+            97,
+            112,
+            139,
+            150
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.366,
+          "bbox": [
+            401,
+            92,
+            450,
+            133
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.365,
+          "bbox": [
+            100,
+            125,
+            132,
+            152
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 14,
+          "class": "motorcycle",
+          "score": 0.363,
+          "bbox": [
+            41,
+            135,
+            67,
+            156
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.35,
+          "bbox": [
+            428,
+            150,
+            460,
+            187
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "fps": 2.8,
+      "detected_candidates": 159,
+      "active_tracks_count": 21,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.341,
+          "bbox": [
+            5,
+            77,
+            77,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.396,
+          "bbox": [
+            272,
+            95,
+            298,
+            110
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 2,
+          "class": "car",
+          "score": 0.32,
+          "bbox": [
+            0,
+            83,
+            39,
+            122
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.391,
+          "bbox": [
+            162,
+            101,
+            211,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.44,
+          "bbox": [
+            0,
+            89,
+            49,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.395,
+          "bbox": [
+            408,
+            91,
+            481,
+            150
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "car",
+          "score": 0.351,
+          "bbox": [
+            10,
+            81,
+            78,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.374,
+          "bbox": [
+            180,
+            91,
+            244,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "motorcycle",
+          "score": 0.457,
+          "bbox": [
+            401,
+            100,
+            443,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.453,
+          "bbox": [
+            0,
+            86,
+            49,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.253,
+          "bbox": [
+            412,
+            113,
+            471,
+            167
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "car",
+          "score": 0.314,
+          "bbox": [
+            102,
+            114,
+            142,
+            149
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.438,
+          "bbox": [
+            401,
+            97,
+            451,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.372,
+          "bbox": [
+            102,
+            127,
+            131,
+            152
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 14,
+          "class": "motorcycle",
+          "score": 0.254,
+          "bbox": [
+            37,
+            134,
+            64,
+            155
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.376,
+          "bbox": [
+            425,
+            150,
+            462,
+            193
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.359,
+          "bbox": [
+            167,
+            91,
+            234,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "car",
+          "score": 0.355,
+          "bbox": [
+            410,
+            109,
+            500,
+            197
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.352,
+          "bbox": [
+            1,
+            115,
+            22,
+            143
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 19,
+          "class": "motorcycle",
+          "score": 0.383,
+          "bbox": [
+            0,
+            95,
+            32,
+            132
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "motorcycle",
+          "score": 0.351,
+          "bbox": [
+            397,
+            105,
+            430,
+            134
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "fps": 5.2,
+      "detected_candidates": 158,
+      "active_tracks_count": 20,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.407,
+          "bbox": [
+            8,
+            79,
+            80,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            121.3,
+            47.6
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.366,
+          "bbox": [
+            272,
+            95,
+            298,
+            110
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            2.5,
+            5.6
+          ]
+        },
+        {
+          "track_id": 2,
+          "class": "bus",
+          "score": 0.273,
+          "bbox": [
+            0,
+            87,
+            25,
+            117
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -85.3,
+            -82.1
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.37,
+          "bbox": [
+            164,
+            102,
+            209,
+            143
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            2.3,
+            -26.1
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.428,
+          "bbox": [
+            0,
+            87,
+            49,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -3.5,
+            -89.4
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.292,
+          "bbox": [
+            413,
+            85,
+            501,
+            160
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            192.1,
+            157.9
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.299,
+          "bbox": [
+            8,
+            73,
+            81,
+            135
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            60.0,
+            -42.6
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.405,
+          "bbox": [
+            180,
+            91,
+            245,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            49.1,
+            -9.1
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.416,
+          "bbox": [
+            400,
+            97,
+            450,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            41.5,
+            -13.9
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.407,
+          "bbox": [
+            2,
+            92,
+            64,
+            147
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            74.0,
+            107.8
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.363,
+          "bbox": [
+            420,
+            120,
+            479,
+            170
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            159.5,
+            201.7
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "car",
+          "score": 0.279,
+          "bbox": [
+            104,
+            114,
+            142,
+            148
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            47.4,
+            -15.5
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.401,
+          "bbox": [
+            400,
+            101,
+            444,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -33.1,
+            66.1
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.292,
+          "bbox": [
+            103,
+            127,
+            130,
+            152
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            8.6,
+            -4.8
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.371,
+          "bbox": [
+            426,
+            147,
+            469,
+            193
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            34.4,
+            59.4
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.356,
+          "bbox": [
+            167,
+            92,
+            234,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "car",
+          "score": 0.375,
+          "bbox": [
+            413,
+            114,
+            494,
+            191
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.286,
+          "bbox": [
+            0,
+            105,
+            27,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 19,
+          "class": "car",
+          "score": 0.397,
+          "bbox": [
+            0,
+            93,
+            31,
+            122
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "motorcycle",
+          "score": 0.391,
+          "bbox": [
+            397,
+            107,
+            431,
+            135
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "fps": 7.8,
+      "detected_candidates": 170,
+      "active_tracks_count": 23,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.288,
+          "bbox": [
+            14,
+            84,
+            82,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            108.7,
+            45.9
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.398,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.9,
+            2.4
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.377,
+          "bbox": [
+            163,
+            102,
+            209,
+            143
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.4,
+            -15.4
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.43,
+          "bbox": [
+            0,
+            86,
+            57,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            28.2,
+            -0.1
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.197,
+          "bbox": [
+            404,
+            74,
+            512,
+            163
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            137.4,
+            123.1
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.268,
+          "bbox": [
+            1,
+            73,
+            73,
+            133
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -6.0,
+            -41.3
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.377,
+          "bbox": [
+            176,
+            91,
+            240,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            5.5,
+            -9.1
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.448,
+          "bbox": [
+            400,
+            96,
+            453,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            35.4,
+            -8.0
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.256,
+          "bbox": [
+            0,
+            95,
+            62,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            36.1,
+            119.9
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.274,
+          "bbox": [
+            426,
+            120,
+            478,
+            165
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            120.9,
+            101.7
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "car",
+          "score": 0.276,
+          "bbox": [
+            107,
+            117,
+            139,
+            146
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            30.8,
+            -27.3
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.441,
+          "bbox": [
+            402,
+            101,
+            448,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -2.9,
+            50.9
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.264,
+          "bbox": [
+            107,
+            130,
+            127,
+            149
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            7.5,
+            -19.2
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.306,
+          "bbox": [
+            429,
+            145,
+            468,
+            193
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            32.8,
+            40.6
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.313,
+          "bbox": [
+            170,
+            90,
+            233,
+            142
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            9.2,
+            -44.7
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "motorcycle",
+          "score": 0.289,
+          "bbox": [
+            416,
+            119,
+            465,
+            189
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -142.5,
+            -83.7
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.298,
+          "bbox": [
+            0,
+            91,
+            34,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            57.0,
+            -14.1
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "motorcycle",
+          "score": 0.43,
+          "bbox": [
+            397,
+            106,
+            433,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            11.7,
+            25.8
+          ]
+        },
+        {
+          "track_id": 21,
+          "class": "car",
+          "score": 0.3,
+          "bbox": [
+            461,
+            114,
+            512,
+            191
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 22,
+          "class": "car",
+          "score": 0.352,
+          "bbox": [
+            395,
+            102,
+            435,
+            133
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "motorcycle",
+          "score": 0.389,
+          "bbox": [
+            469,
+            52,
+            512,
+            115
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.314,
+          "bbox": [
+            469,
+            113,
+            512,
+            185
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.25,
+          "bbox": [
+            418,
+            113,
+            464,
+            154
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "fps": 8.4,
+      "detected_candidates": 166,
+      "active_tracks_count": 23,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.268,
+          "bbox": [
+            16,
+            85,
+            82,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            86.8,
+            12.3
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.394,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -1.0,
+            0.3
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.402,
+          "bbox": [
+            165,
+            101,
+            213,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            15.5,
+            -3.5
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.375,
+          "bbox": [
+            0,
+            84,
+            58,
+            142
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            21.1,
+            -13.4
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.256,
+          "bbox": [
+            411,
+            59,
+            517,
+            159
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            132.8,
+            73.2
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.295,
+          "bbox": [
+            2,
+            63,
+            74,
+            127
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.6,
+            -61.0
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.386,
+          "bbox": [
+            174,
+            90,
+            240,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.7,
+            -2.9
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.446,
+          "bbox": [
+            397,
+            93,
+            456,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            26.7,
+            -14.3
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.272,
+          "bbox": [
+            1,
+            93,
+            66,
+            155
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.0,
+            93.0
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.278,
+          "bbox": [
+            422,
+            116,
+            475,
+            165
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            71.7,
+            76.9
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "car",
+          "score": 0.283,
+          "bbox": [
+            100,
+            112,
+            138,
+            146
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            4.6,
+            -20.8
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.453,
+          "bbox": [
+            400,
+            102,
+            446,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -11.2,
+            39.7
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.273,
+          "bbox": [
+            108,
+            131,
+            127,
+            148
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            6.3,
+            -21.3
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.271,
+          "bbox": [
+            184,
+            99,
+            236,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            64.9,
+            -14.3
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "motorcycle",
+          "score": 0.327,
+          "bbox": [
+            416,
+            120,
+            461,
+            189
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -108.4,
+            -57.5
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "motorcycle",
+          "score": 0.417,
+          "bbox": [
+            0,
+            85,
+            44,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            67.9,
+            -45.4
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.389,
+          "bbox": [
+            394,
+            104,
+            434,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            3.0,
+            28.4
+          ]
+        },
+        {
+          "track_id": 21,
+          "class": "motorcycle",
+          "score": 0.325,
+          "bbox": [
+            460,
+            128,
+            511,
+            204
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 22,
+          "class": "motorcycle",
+          "score": 0.332,
+          "bbox": [
+            393,
+            106,
+            429,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "motorcycle",
+          "score": 0.331,
+          "bbox": [
+            472,
+            54,
+            511,
+            121
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "car",
+          "score": 0.272,
+          "bbox": [
+            466,
+            120,
+            511,
+            186
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.374,
+          "bbox": [
+            409,
+            101,
+            466,
+            146
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "motorcycle",
+          "score": 0.351,
+          "bbox": [
+            0,
+            96,
+            25,
+            131
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "fps": 7.4,
+      "detected_candidates": 167,
+      "active_tracks_count": 27,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.206,
+          "bbox": [
+            16,
+            78,
+            96,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            96.4,
+            2.5
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.379,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.6,
+            0.1
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.402,
+          "bbox": [
+            166,
+            101,
+            215,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            16.4,
+            -1.7
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.365,
+          "bbox": [
+            0,
+            79,
+            64,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.0,
+            -13.7
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.206,
+          "bbox": [
+            410,
+            46,
+            517,
+            155
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            102.1,
+            40.0
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "bus",
+          "score": 0.302,
+          "bbox": [
+            3,
+            61,
+            70,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -6.6,
+            -53.0
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.424,
+          "bbox": [
+            176,
+            90,
+            244,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            11.6,
+            -0.2
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.349,
+          "bbox": [
+            401,
+            93,
+            457,
+            132
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            31.0,
+            -26.5
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.328,
+          "bbox": [
+            1,
+            90,
+            68,
+            153
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            35.2,
+            68.6
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.295,
+          "bbox": [
+            425,
+            116,
+            482,
+            168
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            80.1,
+            74.6
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "car",
+          "score": 0.271,
+          "bbox": [
+            93,
+            113,
+            132,
+            149
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -22.8,
+            -2.8
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.425,
+          "bbox": [
+            400,
+            103,
+            444,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -13.1,
+            27.6
+          ]
+        },
+        {
+          "track_id": 13,
+          "class": "motorcycle",
+          "score": 0.265,
+          "bbox": [
+            108,
+            131,
+            127,
+            147
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            5.0,
+            -19.5
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.286,
+          "bbox": [
+            183,
+            101,
+            235,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            43.8,
+            -11.8
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "motorcycle",
+          "score": 0.286,
+          "bbox": [
+            419,
+            122,
+            465,
+            183
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -63.5,
+            -71.2
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "truck",
+          "score": 0.288,
+          "bbox": [
+            0,
+            62,
+            58,
+            130
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            87.8,
+            -60.7
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.415,
+          "bbox": [
+            397,
+            104,
+            438,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            18.5,
+            20.1
+          ]
+        },
+        {
+          "track_id": 21,
+          "class": "motorcycle",
+          "score": 0.385,
+          "bbox": [
+            458,
+            163,
+            509,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -24.8,
+            265.3
+          ]
+        },
+        {
+          "track_id": 22,
+          "class": "car",
+          "score": 0.3,
+          "bbox": [
+            390,
+            106,
+            424,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -81.1,
+            30.4
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "motorcycle",
+          "score": 0.27,
+          "bbox": [
+            477,
+            65,
+            511,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            42.2,
+            104.9
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.366,
+          "bbox": [
+            467,
+            121,
+            511,
+            193
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -10.3,
+            79.5
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.419,
+          "bbox": [
+            403,
+            94,
+            471,
+            145
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -39.7,
+            -90.3
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.352,
+          "bbox": [
+            0,
+            104,
+            28,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "motorcycle",
+          "score": 0.383,
+          "bbox": [
+            0,
+            84,
+            44,
+            132
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.312,
+          "bbox": [
+            0,
+            46,
+            38,
+            88
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 29,
+          "class": "car",
+          "score": 0.136,
+          "bbox": [
+            479,
+            0,
+            512,
+            120
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.397,
+          "bbox": [
+            427,
+            140,
+            476,
+            195
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            54.2,
+            18.1
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "fps": 8.7,
+      "detected_candidates": 168,
+      "active_tracks_count": 25,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.192,
+          "bbox": [
+            19,
+            75,
+            108,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            105.5,
+            2.5
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.383,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.6,
+            -0.6
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.413,
+          "bbox": [
+            166,
+            100,
+            215,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            14.2,
+            -0.8
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.307,
+          "bbox": [
+            1,
+            78,
+            73,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.5,
+            0.4
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.217,
+          "bbox": [
+            410,
+            39,
+            516,
+            149
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            84.3,
+            13.4
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "bus",
+          "score": 0.295,
+          "bbox": [
+            2,
+            60,
+            70,
+            127
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -6.5,
+            -40.9
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.407,
+          "bbox": [
+            178,
+            90,
+            245,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            14.1,
+            1.1
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.39,
+          "bbox": [
+            399,
+            94,
+            460,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            28.2,
+            -5.0
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.321,
+          "bbox": [
+            0,
+            87,
+            67,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.0,
+            58.6
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.4,
+          "bbox": [
+            422,
+            111,
+            481,
+            169
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            58.1,
+            67.0
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.282,
+          "bbox": [
+            399,
+            107,
+            439,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -20.6,
+            28.3
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.282,
+          "bbox": [
+            187,
+            102,
+            236,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            45.1,
+            -7.9
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "motorcycle",
+          "score": 0.269,
+          "bbox": [
+            420,
+            125,
+            463,
+            182
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -53.9,
+            -59.7
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.217,
+          "bbox": [
+            -1,
+            49,
+            66,
+            117
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            84.0,
+            -104.0
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.415,
+          "bbox": [
+            396,
+            101,
+            440,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            17.1,
+            10.3
+          ]
+        },
+        {
+          "track_id": 21,
+          "class": "motorcycle",
+          "score": 0.338,
+          "bbox": [
+            467,
+            177,
+            511,
+            221
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            18.2,
+            202.3
+          ]
+        },
+        {
+          "track_id": 22,
+          "class": "car",
+          "score": 0.28,
+          "bbox": [
+            389,
+            106,
+            423,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -61.7,
+            27.2
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "motorcycle",
+          "score": 0.381,
+          "bbox": [
+            477,
+            67,
+            511,
+            122
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.3,
+            40.8
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.422,
+          "bbox": [
+            457,
+            125,
+            510,
+            207
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -43.3,
+            147.4
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "bus",
+          "score": 0.251,
+          "bbox": [
+            380,
+            66,
+            483,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -64.3,
+            -87.4
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.309,
+          "bbox": [
+            0,
+            100,
+            32,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            37.4,
+            147.5
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.371,
+          "bbox": [
+            0,
+            84,
+            47,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.336,
+          "bbox": [
+            0,
+            49,
+            37,
+            90
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.393,
+          "bbox": [
+            426,
+            138,
+            478,
+            198
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            42.7,
+            27.2
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.449,
+          "bbox": [
+            416,
+            112,
+            512,
+            218
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "fps": 8.1,
+      "detected_candidates": 163,
+      "active_tracks_count": 25,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.178,
+          "bbox": [
+            29,
+            73,
+            125,
+            134
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            129.2,
+            1.9
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.389,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.5,
+            -0.7
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.403,
+          "bbox": [
+            166,
+            100,
+            215,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            11.9,
+            -0.6
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.34,
+          "bbox": [
+            0,
+            72,
+            71,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.4,
+            -11.2
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.25,
+          "bbox": [
+            404,
+            42,
+            515,
+            152
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            61.7,
+            20.3
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "bus",
+          "score": 0.314,
+          "bbox": [
+            0,
+            56,
+            64,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -19.1,
+            -36.5
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.39,
+          "bbox": [
+            178,
+            90,
+            246,
+            147
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            13.5,
+            2.1
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.438,
+          "bbox": [
+            402,
+            93,
+            469,
+            142
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            40.8,
+            9.8
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.394,
+          "bbox": [
+            -2,
+            88,
+            58,
+            151
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            6.9,
+            41.3
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.303,
+          "bbox": [
+            429,
+            115,
+            494,
+            176
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            79.7,
+            75.5
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.39,
+          "bbox": [
+            401,
+            103,
+            445,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -6.9,
+            21.5
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.279,
+          "bbox": [
+            189,
+            103,
+            236,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            40.6,
+            -5.8
+          ]
+        },
+        {
+          "track_id": 17,
+          "class": "motorcycle",
+          "score": 0.448,
+          "bbox": [
+            426,
+            127,
+            468,
+            182
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -25.9,
+            -52.1
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.204,
+          "bbox": [
+            -2,
+            46,
+            69,
+            112
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            72.7,
+            -102.1
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.411,
+          "bbox": [
+            395,
+            99,
+            441,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            15.0,
+            7.2
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "motorcycle",
+          "score": 0.294,
+          "bbox": [
+            481,
+            73,
+            512,
+            116
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            31.9,
+            3.8
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.464,
+          "bbox": [
+            459,
+            121,
+            512,
+            205
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -24.4,
+            103.0
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "truck",
+          "score": 0.188,
+          "bbox": [
+            367,
+            50,
+            476,
+            131
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -96.9,
+            -114.9
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.331,
+          "bbox": [
+            0,
+            100,
+            31,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            19.7,
+            99.2
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.373,
+          "bbox": [
+            0,
+            88,
+            47,
+            143
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            18.2,
+            106.6
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.314,
+          "bbox": [
+            0,
+            48,
+            43,
+            90
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.2,
+            18.9
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.366,
+          "bbox": [
+            430,
+            139,
+            482,
+            198
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            50.0,
+            22.8
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.456,
+          "bbox": [
+            418,
+            120,
+            512,
+            216
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.282,
+          "bbox": [
+            0,
+            92,
+            20,
+            117
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "car",
+          "score": 0.329,
+          "bbox": [
+            0,
+            89,
+            29,
+            125
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "fps": 8.9,
+      "detected_candidates": 165,
+      "active_tracks_count": 26,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.223,
+          "bbox": [
+            17,
+            74,
+            115,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            86.6,
+            6.6
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.372,
+          "bbox": [
+            272,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.6,
+            -0.6
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.398,
+          "bbox": [
+            166,
+            100,
+            215,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            10.7,
+            -0.5
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.352,
+          "bbox": [
+            -1,
+            65,
+            69,
+            139
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            22.7,
+            -14.1
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.257,
+          "bbox": [
+            402,
+            41,
+            516,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.3,
+            -0.9
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.361,
+          "bbox": [
+            0,
+            55,
+            63,
+            132
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -16.9,
+            -17.3
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.405,
+          "bbox": [
+            178,
+            90,
+            246,
+            147
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            12.1,
+            1.5
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.4,
+          "bbox": [
+            405,
+            91,
+            476,
+            144
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            48.2,
+            13.6
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.346,
+          "bbox": [
+            -2,
+            87,
+            51,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -3.6,
+            25.2
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.311,
+          "bbox": [
+            433,
+            118,
+            499,
+            175
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            80.1,
+            64.8
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.273,
+          "bbox": [
+            403,
+            106,
+            447,
+            142
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -0.5,
+            24.7
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.283,
+          "bbox": [
+            189,
+            103,
+            236,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            35.0,
+            -5.4
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.194,
+          "bbox": [
+            0,
+            47,
+            80,
+            108
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            83.0,
+            -99.4
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.394,
+          "bbox": [
+            398,
+            95,
+            449,
+            135
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            28.9,
+            2.3
+          ]
+        },
+        {
+          "track_id": 23,
+          "class": "car",
+          "score": 0.258,
+          "bbox": [
+            472,
+            78,
+            509,
+            118
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.5,
+            9.0
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.394,
+          "bbox": [
+            462,
+            139,
+            513,
+            210
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -10.7,
+            100.7
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.222,
+          "bbox": [
+            377,
+            41,
+            485,
+            123
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -40.7,
+            -123.2
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.331,
+          "bbox": [
+            0,
+            98,
+            29,
+            142
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.0,
+            51.8
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "motorcycle",
+          "score": 0.374,
+          "bbox": [
+            0,
+            79,
+            52,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.0,
+            57.7
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.269,
+          "bbox": [
+            0,
+            50,
+            41,
+            94
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.8,
+            42.1
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.36,
+          "bbox": [
+            430,
+            134,
+            482,
+            200
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            41.1,
+            24.4
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.404,
+          "bbox": [
+            425,
+            122,
+            512,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            49.8,
+            -9.8
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.278,
+          "bbox": [
+            0,
+            90,
+            22,
+            120
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "bus",
+          "score": 0.299,
+          "bbox": [
+            0,
+            96,
+            24,
+            132
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "car",
+          "score": 0.326,
+          "bbox": [
+            447,
+            149,
+            512,
+            211
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "motorcycle",
+          "score": 0.505,
+          "bbox": [
+            471,
+            174,
+            511,
+            227
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "fps": 9.6,
+      "detected_candidates": 166,
+      "active_tracks_count": 27,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.214,
+          "bbox": [
+            28,
+            79,
+            128,
+            143
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            103.3,
+            20.3
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.361,
+          "bbox": [
+            271,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.8,
+            -1.0
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.399,
+          "bbox": [
+            166,
+            100,
+            214,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            9.4,
+            -1.5
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.192,
+          "bbox": [
+            5,
+            62,
+            86,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            46.8,
+            -23.0
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "truck",
+          "score": 0.257,
+          "bbox": [
+            406,
+            38,
+            516,
+            143
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            52.7,
+            -4.1
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.342,
+          "bbox": [
+            0,
+            49,
+            60,
+            129
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -18.9,
+            -21.5
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.385,
+          "bbox": [
+            179,
+            90,
+            246,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            11.0,
+            0.9
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.382,
+          "bbox": [
+            414,
+            95,
+            487,
+            150
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            64.7,
+            24.2
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "motorcycle",
+          "score": 0.291,
+          "bbox": [
+            -1,
+            94,
+            52,
+            149
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            27.8
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.28,
+          "bbox": [
+            431,
+            123,
+            497,
+            185
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            67.3,
+            78.4
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.387,
+          "bbox": [
+            400,
+            101,
+            450,
+            142
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -0.5,
+            20.3
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.266,
+          "bbox": [
+            183,
+            108,
+            227,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            11.7,
+            -4.2
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.166,
+          "bbox": [
+            6,
+            47,
+            90,
+            106
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            92.0,
+            -90.7
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.429,
+          "bbox": [
+            398,
+            94,
+            453,
+            135
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            29.8,
+            2.2
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.302,
+          "bbox": [
+            463,
+            146,
+            513,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -7.0,
+            91.2
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.219,
+          "bbox": [
+            378,
+            38,
+            489,
+            121
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -25.0,
+            -108.4
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.334,
+          "bbox": [
+            0,
+            97,
+            37,
+            143
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.7,
+            47.2
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.334,
+          "bbox": [
+            0,
+            74,
+            49,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.3,
+            22.4
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.26,
+          "bbox": [
+            0,
+            52,
+            46,
+            98
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            22.5,
+            53.3
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.388,
+          "bbox": [
+            429,
+            127,
+            486,
+            195
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.3,
+            6.5
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.406,
+          "bbox": [
+            427,
+            120,
+            512,
+            223
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.8,
+            32.5
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.298,
+          "bbox": [
+            0,
+            86,
+            27,
+            121
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.8,
+            44.5
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "car",
+          "score": 0.304,
+          "bbox": [
+            0,
+            105,
+            25,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -21.5,
+            145.1
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "car",
+          "score": 0.268,
+          "bbox": [
+            453,
+            156,
+            512,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "motorcycle",
+          "score": 0.411,
+          "bbox": [
+            457,
+            174,
+            511,
+            239
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "truck",
+          "score": 0.171,
+          "bbox": [
+            435,
+            80,
+            512,
+            184
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "car",
+          "score": 0.295,
+          "bbox": [
+            0,
+            53,
+            64,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "fps": 9.5,
+      "detected_candidates": 169,
+      "active_tracks_count": 30,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "car",
+          "score": 0.169,
+          "bbox": [
+            33,
+            75,
+            130,
+            136
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            100.1,
+            5.4
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.369,
+          "bbox": [
+            271,
+            95,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.8,
+            -0.8
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.397,
+          "bbox": [
+            167,
+            101,
+            214,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            8.5,
+            -2.4
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.186,
+          "bbox": [
+            7,
+            61,
+            93,
+            133
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            51.1,
+            -23.6
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "car",
+          "score": 0.237,
+          "bbox": [
+            405,
+            32,
+            516,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            45.5,
+            -21.5
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.33,
+          "bbox": [
+            0,
+            46,
+            60,
+            129
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -16.7,
+            -20.4
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.387,
+          "bbox": [
+            180,
+            91,
+            245,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            10.0,
+            -0.3
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.325,
+          "bbox": [
+            415,
+            95,
+            485,
+            149
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            58.0,
+            19.1
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.262,
+          "bbox": [
+            3,
+            94,
+            59,
+            149
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.2,
+            25.6
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.444,
+          "bbox": [
+            431,
+            123,
+            490,
+            180
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            52.8,
+            62.1
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.372,
+          "bbox": [
+            396,
+            100,
+            444,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -10.1,
+            11.7
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.264,
+          "bbox": [
+            182,
+            111,
+            223,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            3.8,
+            -5.3
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "truck",
+          "score": 0.173,
+          "bbox": [
+            8,
+            48,
+            93,
+            106
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            87.2,
+            -81.4
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.434,
+          "bbox": [
+            401,
+            93,
+            461,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            38.3,
+            4.1
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.27,
+          "bbox": [
+            462,
+            142,
+            512,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -8.3,
+            78.7
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.124,
+          "bbox": [
+            372,
+            17,
+            494,
+            121
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -22.5,
+            -93.9
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.354,
+          "bbox": [
+            0,
+            98,
+            40,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            25.7,
+            41.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.279,
+          "bbox": [
+            -1,
+            71,
+            43,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -3.6,
+            6.7
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.284,
+          "bbox": [
+            0,
+            52,
+            44,
+            96
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.1,
+            32.7
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.364,
+          "bbox": [
+            435,
+            137,
+            489,
+            201
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            45.3,
+            21.3
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.385,
+          "bbox": [
+            433,
+            126,
+            512,
+            221
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            45.7,
+            12.6
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "motorcycle",
+          "score": 0.269,
+          "bbox": [
+            0,
+            89,
+            27,
+            128
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            23.2,
+            72.8
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "car",
+          "score": 0.323,
+          "bbox": [
+            1,
+            112,
+            23,
+            143
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -13.6,
+            119.3
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "car",
+          "score": 0.294,
+          "bbox": [
+            461,
+            159,
+            512,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            75.2,
+            20.8
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.164,
+          "bbox": [
+            440,
+            187,
+            511,
+            280
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -153.5,
+            532.1
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.351,
+          "bbox": [
+            437,
+            76,
+            512,
+            169
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "motorcycle",
+          "score": 0.308,
+          "bbox": [
+            0,
+            57,
+            58,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.347,
+          "bbox": [
+            85,
+            95,
+            144,
+            143
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "truck",
+          "score": 0.258,
+          "bbox": [
+            435,
+            108,
+            512,
+            208
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.558,
+          "bbox": [
+            470,
+            171,
+            511,
+            222
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "fps": 14.0,
+      "detected_candidates": 173,
+      "active_tracks_count": 31,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.176,
+          "bbox": [
+            47,
+            74,
+            140,
+            135
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            112.1,
+            3.1
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.349,
+          "bbox": [
+            271,
+            96,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -1.0,
+            -0.7
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.396,
+          "bbox": [
+            167,
+            101,
+            213,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            7.3,
+            -2.7
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.17,
+          "bbox": [
+            10,
+            54,
+            95,
+            123
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            51.1,
+            -40.0
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.249,
+          "bbox": [
+            401,
+            35,
+            514,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            36.5,
+            -13.4
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "bus",
+          "score": 0.291,
+          "bbox": [
+            1,
+            44,
+            62,
+            132
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.1,
+            -13.6
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.373,
+          "bbox": [
+            177,
+            91,
+            241,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            3.6,
+            -0.4
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.369,
+          "bbox": [
+            422,
+            96,
+            490,
+            150
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            63.7,
+            19.2
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "bus",
+          "score": 0.161,
+          "bbox": [
+            0,
+            102,
+            59,
+            171
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            6.5,
+            62.7
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.298,
+          "bbox": [
+            434,
+            124,
+            490,
+            185
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            51.7,
+            64.0
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.392,
+          "bbox": [
+            397,
+            99,
+            446,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -7.5,
+            10.4
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.29,
+          "bbox": [
+            180,
+            113,
+            218,
+            143
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -2.9,
+            -7.2
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.186,
+          "bbox": [
+            3,
+            47,
+            91,
+            105
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            72.4,
+            -75.8
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.33,
+          "bbox": [
+            461,
+            144,
+            512,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -9.2,
+            71.8
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.111,
+          "bbox": [
+            377,
+            4,
+            509,
+            128
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            5.1,
+            -64.7
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.292,
+          "bbox": [
+            0,
+            95,
+            45,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.5,
+            39.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.199,
+          "bbox": [
+            4,
+            68,
+            65,
+            135
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            42.0,
+            11.0
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "bus",
+          "score": 0.255,
+          "bbox": [
+            -2,
+            53,
+            41,
+            107
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            1.4,
+            63.7
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.356,
+          "bbox": [
+            438,
+            145,
+            489,
+            206
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            44.0,
+            30.0
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.447,
+          "bbox": [
+            437,
+            124,
+            512,
+            220
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            43.1,
+            5.7
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "motorcycle",
+          "score": 0.282,
+          "bbox": [
+            0,
+            87,
+            31,
+            131
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            28.2,
+            71.9
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "car",
+          "score": 0.284,
+          "bbox": [
+            4,
+            120,
+            20,
+            148
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -13.1,
+            116.7
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "car",
+          "score": 0.261,
+          "bbox": [
+            459,
+            157,
+            511,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            39.8,
+            4.2
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.196,
+          "bbox": [
+            418,
+            165,
+            510,
+            278
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -183.1,
+            337.7
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "truck",
+          "score": 0.183,
+          "bbox": [
+            438,
+            68,
+            512,
+            163
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            15.6,
+            -211.8
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "car",
+          "score": 0.274,
+          "bbox": [
+            0,
+            55,
+            50,
+            129
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -72.4,
+            -88.2
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.338,
+          "bbox": [
+            79,
+            94,
+            141,
+            145
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "car",
+          "score": 0.195,
+          "bbox": [
+            423,
+            104,
+            510,
+            188
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.542,
+          "bbox": [
+            465,
+            171,
+            511,
+            222
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 40,
+          "class": "truck",
+          "score": 0.314,
+          "bbox": [
+            460,
+            68,
+            512,
+            121
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.437,
+          "bbox": [
+            404,
+            93,
+            471,
+            145
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "fps": 13.9,
+      "detected_candidates": 164,
+      "active_tracks_count": 33,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.18,
+          "bbox": [
+            52,
+            74,
+            143,
+            135
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            109.9,
+            3.0
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.35,
+          "bbox": [
+            271,
+            96,
+            298,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -1.1,
+            -0.9
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.358,
+          "bbox": [
+            168,
+            101,
+            212,
+            144
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            6.7,
+            -2.6
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.17,
+          "bbox": [
+            11,
+            53,
+            95,
+            118
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            48.1,
+            -43.6
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.21,
+          "bbox": [
+            402,
+            39,
+            515,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            34.9,
+            -10.6
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "bus",
+          "score": 0.266,
+          "bbox": [
+            1,
+            43,
+            62,
+            133
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -11.2,
+            -10.3
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.382,
+          "bbox": [
+            180,
+            92,
+            243,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            6.6,
+            -0.6
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.366,
+          "bbox": [
+            429,
+            97,
+            497,
+            151
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            70.3,
+            20.4
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.163,
+          "bbox": [
+            0,
+            107,
+            64,
+            188
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.9,
+            86.8
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.264,
+          "bbox": [
+            436,
+            123,
+            495,
+            186
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.4,
+            61.2
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.393,
+          "bbox": [
+            397,
+            99,
+            446,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -6.3,
+            9.7
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.281,
+          "bbox": [
+            182,
+            117,
+            214,
+            142
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.4,
+            -7.5
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.169,
+          "bbox": [
+            1,
+            46,
+            90,
+            103
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            62.1,
+            -71.4
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.325,
+          "bbox": [
+            460,
+            145,
+            511,
+            215
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -10.3,
+            67.1
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.163,
+          "bbox": [
+            389,
+            -4,
+            517,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.7,
+            -62.5
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.301,
+          "bbox": [
+            5,
+            96,
+            56,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            46.1,
+            37.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.193,
+          "bbox": [
+            3,
+            67,
+            74,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            48.2,
+            12.7
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.169,
+          "bbox": [
+            -3,
+            57,
+            33,
+            113
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -10.9,
+            72.9
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.462,
+          "bbox": [
+            436,
+            140,
+            486,
+            203
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            35.3,
+            19.6
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.469,
+          "bbox": [
+            431,
+            120,
+            510,
+            218
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            22.8,
+            -0.5
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.264,
+          "bbox": [
+            1,
+            81,
+            37,
+            131
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            38.0,
+            56.0
+          ]
+        },
+        {
+          "track_id": 32,
+          "class": "car",
+          "score": 0.252,
+          "bbox": [
+            5,
+            125,
+            17,
+            151
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -13.8,
+            103.3
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "car",
+          "score": 0.344,
+          "bbox": [
+            454,
+            154,
+            510,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            15.1,
+            6.0
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.19,
+          "bbox": [
+            407,
+            164,
+            511,
+            287
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -158.2,
+            300.4
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.373,
+          "bbox": [
+            440,
+            75,
+            512,
+            161
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            16.7,
+            -155.4
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "truck",
+          "score": 0.256,
+          "bbox": [
+            0,
+            58,
+            39,
+            126
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -86.8,
+            -79.4
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.267,
+          "bbox": [
+            81,
+            97,
+            144,
+            151
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -19.0,
+            79.4
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "car",
+          "score": 0.212,
+          "bbox": [
+            393,
+            94,
+            485,
+            168
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -342.7,
+            -397.5
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.493,
+          "bbox": [
+            466,
+            170,
+            512,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -18.6,
+            -40.4
+          ]
+        },
+        {
+          "track_id": 40,
+          "class": "car",
+          "score": 0.272,
+          "bbox": [
+            459,
+            73,
+            511,
+            129
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.418,
+          "bbox": [
+            406,
+            95,
+            469,
+            145
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "motorcycle",
+          "score": 0.432,
+          "bbox": [
+            433,
+            111,
+            484,
+            164
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "truck",
+          "score": 0.409,
+          "bbox": [
+            401,
+            92,
+            466,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            44.4,
+            12.2
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "fps": 14.7,
+      "detected_candidates": 156,
+      "active_tracks_count": 33,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.175,
+          "bbox": [
+            47,
+            74,
+            139,
+            136
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            94.5,
+            3.8
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.349,
+          "bbox": [
+            271,
+            96,
+            298,
+            108
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -1.2,
+            -1.0
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.373,
+          "bbox": [
+            168,
+            102,
+            212,
+            143
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            6.1,
+            -3.3
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.161,
+          "bbox": [
+            16,
+            60,
+            102,
+            124
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            52.9,
+            -31.9
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.25,
+          "bbox": [
+            400,
+            44,
+            514,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            30.0,
+            1.1
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.312,
+          "bbox": [
+            1,
+            45,
+            61,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -11.3,
+            -3.9
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.38,
+          "bbox": [
+            180,
+            92,
+            243,
+            146
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            7.0,
+            0.1
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.352,
+          "bbox": [
+            426,
+            99,
+            491,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            57.3,
+            22.7
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.169,
+          "bbox": [
+            0,
+            110,
+            64,
+            204
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.2,
+            103.8
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.408,
+          "bbox": [
+            438,
+            129,
+            495,
+            188
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            50.9,
+            59.0
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "car",
+          "score": 0.372,
+          "bbox": [
+            394,
+            101,
+            439,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -14.3,
+            9.0
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.285,
+          "bbox": [
+            184,
+            119,
+            211,
+            141
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.7,
+            -8.5
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "truck",
+          "score": 0.169,
+          "bbox": [
+            0,
+            47,
+            89,
+            103
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            54.7,
+            -65.2
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "car",
+          "score": 0.264,
+          "bbox": [
+            460,
+            139,
+            512,
+            210
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -8.0,
+            50.4
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.145,
+          "bbox": [
+            376,
+            0,
+            503,
+            130
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -2.7,
+            -47.8
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.342,
+          "bbox": [
+            6,
+            95,
+            62,
+            147
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            47.4,
+            33.9
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.259,
+          "bbox": [
+            -1,
+            63,
+            65,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            25.6,
+            11.6
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.182,
+          "bbox": [
+            -1,
+            58,
+            30,
+            117
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.0,
+            71.9
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.502,
+          "bbox": [
+            442,
+            143,
+            496,
+            206
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            46.9,
+            23.2
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.508,
+          "bbox": [
+            433,
+            121,
+            511,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            23.8,
+            -4.3
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "motorcycle",
+          "score": 0.264,
+          "bbox": [
+            1,
+            80,
+            41,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            36.5,
+            58.3
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.448,
+          "bbox": [
+            455,
+            158,
+            510,
+            215
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            13.7,
+            14.5
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.192,
+          "bbox": [
+            406,
+            164,
+            514,
+            291
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -125.2,
+            257.4
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.327,
+          "bbox": [
+            438,
+            77,
+            511,
+            161
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            8.0,
+            -113.1
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "car",
+          "score": 0.271,
+          "bbox": [
+            0,
+            72,
+            35,
+            131
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -73.9,
+            -38.2
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.277,
+          "bbox": [
+            77,
+            92,
+            143,
+            150
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -30.2,
+            46.0
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "bus",
+          "score": 0.242,
+          "bbox": [
+            380,
+            68,
+            476,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -304.0,
+            -453.1
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.378,
+          "bbox": [
+            471,
+            173,
+            512,
+            218
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            5.1,
+            -23.3
+          ]
+        },
+        {
+          "track_id": 40,
+          "class": "bus",
+          "score": 0.342,
+          "bbox": [
+            462,
+            71,
+            511,
+            127
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            8.7,
+            64.8
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.321,
+          "bbox": [
+            409,
+            92,
+            473,
+            143
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            29.8,
+            -22.6
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "motorcycle",
+          "score": 0.4,
+          "bbox": [
+            428,
+            105,
+            487,
+            168
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.405,
+          "bbox": [
+            399,
+            94,
+            460,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            31.2,
+            11.5
+          ]
+        },
+        {
+          "track_id": 43,
+          "class": "motorcycle",
+          "score": 0.353,
+          "bbox": [
+            398,
+            106,
+            437,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "fps": 15.6,
+      "detected_candidates": 162,
+      "active_tracks_count": 32,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.169,
+          "bbox": [
+            45,
+            74,
+            137,
+            135
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            84.8,
+            2.6
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.33,
+          "bbox": [
+            271,
+            96,
+            297,
+            108
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -1.3,
+            -1.0
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.38,
+          "bbox": [
+            169,
+            103,
+            211,
+            142
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            5.4,
+            -4.5
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.175,
+          "bbox": [
+            16,
+            63,
+            105,
+            127
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            51.2,
+            -25.1
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "truck",
+          "score": 0.246,
+          "bbox": [
+            400,
+            47,
+            514,
+            147
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            27.6,
+            3.2
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.303,
+          "bbox": [
+            1,
+            46,
+            61,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -9.7,
+            -1.3
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.357,
+          "bbox": [
+            183,
+            95,
+            242,
+            147
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            7.0,
+            1.7
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.261,
+          "bbox": [
+            427,
+            98,
+            491,
+            153
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.5,
+            19.7
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.185,
+          "bbox": [
+            1,
+            110,
+            68,
+            210
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            13.1,
+            105.7
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.434,
+          "bbox": [
+            439,
+            130,
+            494,
+            188
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            46.8,
+            54.8
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.385,
+          "bbox": [
+            398,
+            103,
+            441,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -8.7,
+            9.2
+          ]
+        },
+        {
+          "track_id": 16,
+          "class": "car",
+          "score": 0.272,
+          "bbox": [
+            187,
+            120,
+            212,
+            140
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.9,
+            -9.0
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.185,
+          "bbox": [
+            -4,
+            48,
+            79,
+            106
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            39.0,
+            -55.8
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.477,
+          "bbox": [
+            456,
+            136,
+            511,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.7,
+            51.9
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.148,
+          "bbox": [
+            370,
+            2,
+            499,
+            131
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -11.8,
+            -41.2
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.311,
+          "bbox": [
+            10,
+            94,
+            70,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            54.9,
+            25.1
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.204,
+          "bbox": [
+            0,
+            65,
+            69,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            27.6,
+            12.6
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.193,
+          "bbox": [
+            0,
+            57,
+            30,
+            118
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -9.0,
+            68.3
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.372,
+          "bbox": [
+            445,
+            146,
+            499,
+            208
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            47.5,
+            25.1
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.537,
+          "bbox": [
+            436,
+            121,
+            511,
+            219
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            24.6,
+            1.8
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.275,
+          "bbox": [
+            0,
+            75,
+            40,
+            134
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.1,
+            49.9
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.355,
+          "bbox": [
+            462,
+            160,
+            512,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.0,
+            5.7
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.195,
+          "bbox": [
+            404,
+            159,
+            515,
+            292
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -105.3,
+            216.5
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "truck",
+          "score": 0.162,
+          "bbox": [
+            439,
+            73,
+            511,
+            158
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            7.4,
+            -102.0
+          ]
+        },
+        {
+          "track_id": 36,
+          "class": "car",
+          "score": 0.257,
+          "bbox": [
+            0,
+            88,
+            26,
+            133
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -75.9,
+            -20.1
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.283,
+          "bbox": [
+            80,
+            94,
+            145,
+            154
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -9.7,
+            52.8
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "car",
+          "score": 0.202,
+          "bbox": [
+            379,
+            45,
+            466,
+            107
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -254.0,
+            -507.2
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.426,
+          "bbox": [
+            475,
+            176,
+            513,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            14.5,
+            -20.2
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.346,
+          "bbox": [
+            410,
+            93,
+            473,
+            144
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            23.8,
+            -8.1
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "car",
+          "score": 0.192,
+          "bbox": [
+            402,
+            90,
+            487,
+            161
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -142.2,
+            -23.5
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.397,
+          "bbox": [
+            398,
+            97,
+            456,
+            142
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            24.0,
+            12.4
+          ]
+        },
+        {
+          "track_id": 43,
+          "class": "car",
+          "score": 0.32,
+          "bbox": [
+            393,
+            107,
+            428,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "fps": 14.8,
+      "detected_candidates": 169,
+      "active_tracks_count": 32,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.175,
+          "bbox": [
+            46,
+            75,
+            135,
+            133
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            78.2,
+            -0.7
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.316,
+          "bbox": [
+            269,
+            97,
+            295,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.4,
+            0.3
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.359,
+          "bbox": [
+            170,
+            103,
+            210,
+            141
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            5.0,
+            -5.7
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.159,
+          "bbox": [
+            27,
+            64,
+            111,
+            125
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            59.6,
+            -26.3
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.239,
+          "bbox": [
+            403,
+            50,
+            515,
+            146
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            28.8,
+            1.8
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.332,
+          "bbox": [
+            1,
+            47,
+            61,
+            139
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -9.8,
+            -0.5
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.343,
+          "bbox": [
+            185,
+            97,
+            240,
+            147
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            6.8,
+            1.0
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.291,
+          "bbox": [
+            427,
+            98,
+            490,
+            153
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            49.7,
+            18.4
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.186,
+          "bbox": [
+            1,
+            109,
+            69,
+            211
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            12.9,
+            100.3
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.406,
+          "bbox": [
+            443,
+            131,
+            496,
+            183
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            47.6,
+            44.8
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.38,
+          "bbox": [
+            399,
+            105,
+            442,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -6.4,
+            8.1
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.174,
+          "bbox": [
+            -5,
+            48,
+            74,
+            109
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            31.9,
+            -48.5
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "truck",
+          "score": 0.38,
+          "bbox": [
+            455,
+            135,
+            511,
+            211
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.1,
+            43.8
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "truck",
+          "score": 0.1,
+          "bbox": [
+            379,
+            -1,
+            510,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            5.3,
+            -29.4
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.366,
+          "bbox": [
+            15,
+            93,
+            74,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            59.3,
+            15.6
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "bus",
+          "score": 0.318,
+          "bbox": [
+            -1,
+            56,
+            71,
+            137
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.4,
+            10.4
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.27,
+          "bbox": [
+            0,
+            68,
+            30,
+            129
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -7.4,
+            82.2
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.409,
+          "bbox": [
+            447,
+            151,
+            497,
+            207
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            44.1,
+            21.7
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.442,
+          "bbox": [
+            439,
+            124,
+            512,
+            216
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.7,
+            -5.9
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.302,
+          "bbox": [
+            1,
+            70,
+            48,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            37.5,
+            52.6
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.473,
+          "bbox": [
+            464,
+            156,
+            512,
+            211
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            23.7,
+            -0.8
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.179,
+          "bbox": [
+            401,
+            157,
+            515,
+            293
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -94.4,
+            189.1
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.383,
+          "bbox": [
+            442,
+            79,
+            512,
+            159
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.8,
+            -83.4
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "truck",
+          "score": 0.294,
+          "bbox": [
+            76,
+            94,
+            144,
+            158
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -18.3,
+            61.4
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "car",
+          "score": 0.157,
+          "bbox": [
+            383,
+            12,
+            461,
+            83
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -205.8,
+            -500.1
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.341,
+          "bbox": [
+            475,
+            175,
+            512,
+            218
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.6,
+            -13.5
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.318,
+          "bbox": [
+            411,
+            94,
+            472,
+            144
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            18.4,
+            -5.2
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "car",
+          "score": 0.178,
+          "bbox": [
+            384,
+            86,
+            477,
+            161
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -185.9,
+            -17.6
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.385,
+          "bbox": [
+            398,
+            99,
+            453,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            20.5,
+            11.0
+          ]
+        },
+        {
+          "track_id": 43,
+          "class": "car",
+          "score": 0.27,
+          "bbox": [
+            393,
+            107,
+            426,
+            135
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -86.6,
+            -30.1
+          ]
+        },
+        {
+          "track_id": 44,
+          "class": "motorcycle",
+          "score": 0.343,
+          "bbox": [
+            463,
+            28,
+            512,
+            88
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 45,
+          "class": "motorcycle",
+          "score": 0.392,
+          "bbox": [
+            58,
+            137,
+            89,
+            160
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "fps": 14.8,
+      "detected_candidates": 170,
+      "active_tracks_count": 34,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.186,
+          "bbox": [
+            39,
+            75,
+            131,
+            131
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            66.7,
+            -2.4
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.288,
+          "bbox": [
+            269,
+            96,
+            294,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.9,
+            0.4
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.365,
+          "bbox": [
+            170,
+            104,
+            209,
+            140
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            4.5,
+            -6.5
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "car",
+          "score": 0.178,
+          "bbox": [
+            31,
+            65,
+            114,
+            124
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            60.0,
+            -26.0
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.233,
+          "bbox": [
+            404,
+            51,
+            515,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.8,
+            0.6
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.368,
+          "bbox": [
+            1,
+            45,
+            62,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -7.9,
+            2.5
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.358,
+          "bbox": [
+            183,
+            98,
+            236,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            3.2,
+            -0.9
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.171,
+          "bbox": [
+            427,
+            102,
+            501,
+            166
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.9,
+            33.2
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.191,
+          "bbox": [
+            1,
+            108,
+            69,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            12.0,
+            95.2
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.406,
+          "bbox": [
+            448,
+            133,
+            497,
+            179
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            48.6,
+            36.9
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.332,
+          "bbox": [
+            400,
+            105,
+            442,
+            138
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -5.5,
+            6.4
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.18,
+          "bbox": [
+            -4,
+            49,
+            75,
+            108
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            32.1,
+            -46.7
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "car",
+          "score": 0.408,
+          "bbox": [
+            453,
+            139,
+            511,
+            215
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.3,
+            45.9
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "truck",
+          "score": 0.113,
+          "bbox": [
+            382,
+            -4,
+            514,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            10.9,
+            -21.1
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.377,
+          "bbox": [
+            13,
+            94,
+            74,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            52.7,
+            16.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "bus",
+          "score": 0.367,
+          "bbox": [
+            0,
+            49,
+            74,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            27.2,
+            15.9
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.174,
+          "bbox": [
+            1,
+            64,
+            30,
+            127
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -5.7,
+            71.8
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.262,
+          "bbox": [
+            448,
+            152,
+            495,
+            206
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            39.8,
+            19.2
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "truck",
+          "score": 0.191,
+          "bbox": [
+            444,
+            116,
+            512,
+            207
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.5,
+            -22.9
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.281,
+          "bbox": [
+            1,
+            67,
+            52,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            36.9,
+            51.1
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.406,
+          "bbox": [
+            460,
+            155,
+            510,
+            211
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            14.5,
+            0.2
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "bus",
+          "score": 0.107,
+          "bbox": [
+            387,
+            132,
+            512,
+            289
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -103.0,
+            154.9
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.354,
+          "bbox": [
+            448,
+            81,
+            513,
+            158
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            21.3,
+            -73.2
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "truck",
+          "score": 0.304,
+          "bbox": [
+            72,
+            94,
+            140,
+            159
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -27.5,
+            52.6
+          ]
+        },
+        {
+          "track_id": 38,
+          "class": "car",
+          "score": 0.134,
+          "bbox": [
+            380,
+            0,
+            443,
+            74
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -204.4,
+            -446.9
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.372,
+          "bbox": [
+            476,
+            174,
+            512,
+            218
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.5,
+            -11.4
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.291,
+          "bbox": [
+            421,
+            97,
+            479,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            49.8,
+            -3.2
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "bus",
+          "score": 0.21,
+          "bbox": [
+            370,
+            64,
+            475,
+            146
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -182.3,
+            -90.3
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.401,
+          "bbox": [
+            403,
+            97,
+            459,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            27.0,
+            10.2
+          ]
+        },
+        {
+          "track_id": 43,
+          "class": "motorcycle",
+          "score": 0.263,
+          "bbox": [
+            392,
+            107,
+            423,
+            135
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -65.5,
+            -17.0
+          ]
+        },
+        {
+          "track_id": 44,
+          "class": "car",
+          "score": 0.142,
+          "bbox": [
+            465,
+            3,
+            512,
+            99
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 45,
+          "class": "motorcycle",
+          "score": 0.374,
+          "bbox": [
+            55,
+            133,
+            92,
+            164
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 46,
+          "class": "car",
+          "score": 0.367,
+          "bbox": [
+            61,
+            128,
+            94,
+            153
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "motorcycle",
+          "score": 0.371,
+          "bbox": [
+            63,
+            126,
+            99,
+            153
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "fps": 11.6,
+      "detected_candidates": 163,
+      "active_tracks_count": 36,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.198,
+          "bbox": [
+            43,
+            76,
+            133,
+            132
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            66.6,
+            -1.3
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.295,
+          "bbox": [
+            268,
+            97,
+            293,
+            110
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -5.0,
+            0.8
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.371,
+          "bbox": [
+            171,
+            105,
+            208,
+            139
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            4.4,
+            -7.0
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.167,
+          "bbox": [
+            28,
+            65,
+            113,
+            124
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            54.1,
+            -24.5
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.229,
+          "bbox": [
+            403,
+            50,
+            514,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            24.5,
+            0.2
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.302,
+          "bbox": [
+            2,
+            49,
+            64,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -6.5,
+            5.8
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.356,
+          "bbox": [
+            186,
+            99,
+            236,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            4.8,
+            -0.7
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.253,
+          "bbox": [
+            427,
+            91,
+            507,
+            162
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.9,
+            26.7
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.159,
+          "bbox": [
+            0,
+            101,
+            69,
+            209
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.9,
+            85.4
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.311,
+          "bbox": [
+            453,
+            128,
+            505,
+            178
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            53.2,
+            33.2
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.391,
+          "bbox": [
+            401,
+            105,
+            442,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -4.8,
+            5.4
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.163,
+          "bbox": [
+            -4,
+            49,
+            70,
+            109
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            26.0,
+            -42.3
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.371,
+          "bbox": [
+            451,
+            139,
+            511,
+            216
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -12.6,
+            44.7
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.127,
+          "bbox": [
+            370,
+            1,
+            504,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -5.3,
+            -20.9
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.34,
+          "bbox": [
+            11,
+            95,
+            72,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            44.8,
+            15.0
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "bus",
+          "score": 0.324,
+          "bbox": [
+            0,
+            46,
+            75,
+            142
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            25.5,
+            16.1
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "truck",
+          "score": 0.273,
+          "bbox": [
+            0,
+            76,
+            31,
+            135
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -4.8,
+            79.3
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.355,
+          "bbox": [
+            453,
+            155,
+            496,
+            205
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            41.3,
+            16.9
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.392,
+          "bbox": [
+            444,
+            117,
+            511,
+            209
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            25.2,
+            -16.2
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "truck",
+          "score": 0.165,
+          "bbox": [
+            0,
+            75,
+            53,
+            151
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            33.5,
+            69.3
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.452,
+          "bbox": [
+            462,
+            159,
+            510,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            15.1,
+            2.6
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.16,
+          "bbox": [
+            374,
+            121,
+            500,
+            279
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -119.7,
+            116.5
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "truck",
+          "score": 0.173,
+          "bbox": [
+            447,
+            82,
+            511,
+            161
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            15.0,
+            -57.7
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "truck",
+          "score": 0.337,
+          "bbox": [
+            71,
+            93,
+            139,
+            158
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -27.6,
+            43.7
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.295,
+          "bbox": [
+            472,
+            177,
+            510,
+            223
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.1,
+            2.8
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.316,
+          "bbox": [
+            429,
+            104,
+            482,
+            147
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            60.0,
+            5.8
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "bus",
+          "score": 0.202,
+          "bbox": [
+            356,
+            56,
+            467,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -188.8,
+            -90.1
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.385,
+          "bbox": [
+            400,
+            98,
+            455,
+            141
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            19.8,
+            8.6
+          ]
+        },
+        {
+          "track_id": 43,
+          "class": "motorcycle",
+          "score": 0.33,
+          "bbox": [
+            392,
+            107,
+            424,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -50.7,
+            -9.2
+          ]
+        },
+        {
+          "track_id": 44,
+          "class": "car",
+          "score": 0.14,
+          "bbox": [
+            468,
+            -2,
+            510,
+            106
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            14.9,
+            175.8
+          ]
+        },
+        {
+          "track_id": 45,
+          "class": "motorcycle",
+          "score": 0.323,
+          "bbox": [
+            55,
+            132,
+            92,
+            163
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -4.3,
+            31.1
+          ]
+        },
+        {
+          "track_id": 46,
+          "class": "car",
+          "score": 0.358,
+          "bbox": [
+            61,
+            129,
+            93,
+            153
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "motorcycle",
+          "score": 0.361,
+          "bbox": [
+            63,
+            127,
+            98,
+            153
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 47,
+          "class": "car",
+          "score": 0.333,
+          "bbox": [
+            202,
+            117,
+            231,
+            139
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 48,
+          "class": "car",
+          "score": 0.353,
+          "bbox": [
+            180,
+            107,
+            222,
+            142
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 49,
+          "class": "motorcycle",
+          "score": 0.321,
+          "bbox": [
+            60,
+            135,
+            87,
+            152
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "fps": 14.9,
+      "detected_candidates": 158,
+      "active_tracks_count": 34,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.207,
+          "bbox": [
+            44,
+            76,
+            134,
+            133
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            64.0,
+            -0.9
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.286,
+          "bbox": [
+            268,
+            96,
+            293,
+            110
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.8,
+            0.8
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.369,
+          "bbox": [
+            175,
+            107,
+            211,
+            140
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            7.5,
+            -5.6
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.167,
+          "bbox": [
+            27,
+            66,
+            112,
+            124
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            50.0,
+            -22.5
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.219,
+          "bbox": [
+            402,
+            47,
+            513,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            22.2,
+            0.7
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.294,
+          "bbox": [
+            0,
+            46,
+            60,
+            141
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -9.2,
+            1.8
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.352,
+          "bbox": [
+            188,
+            100,
+            236,
+            145
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            5.2,
+            -0.8
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.238,
+          "bbox": [
+            420,
+            85,
+            509,
+            162
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            48.0,
+            25.8
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.174,
+          "bbox": [
+            0,
+            104,
+            69,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            10.5,
+            86.0
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "motorcycle",
+          "score": 0.373,
+          "bbox": [
+            451,
+            134,
+            505,
+            185
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            49.0,
+            39.3
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.383,
+          "bbox": [
+            399,
+            107,
+            439,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -7.0,
+            6.8
+          ]
+        },
+        {
+          "track_id": 18,
+          "class": "car",
+          "score": 0.155,
+          "bbox": [
+            1,
+            51,
+            78,
+            107
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            33.2,
+            -41.3
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "motorcycle",
+          "score": 0.581,
+          "bbox": [
+            456,
+            140,
+            513,
+            216
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -7.7,
+            42.0
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.162,
+          "bbox": [
+            382,
+            -5,
+            513,
+            131
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            8.7,
+            -30.9
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.324,
+          "bbox": [
+            11,
+            96,
+            71,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            40.8,
+            12.5
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "bus",
+          "score": 0.266,
+          "bbox": [
+            -1,
+            50,
+            73,
+            144
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            21.2,
+            18.8
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "car",
+          "score": 0.257,
+          "bbox": [
+            1,
+            78,
+            32,
+            135
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -3.8,
+            72.9
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.426,
+          "bbox": [
+            453,
+            152,
+            496,
+            205
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            39.0,
+            15.3
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.432,
+          "bbox": [
+            450,
+            123,
+            513,
+            212
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            29.8,
+            -11.4
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "truck",
+          "score": 0.161,
+          "bbox": [
+            0,
+            77,
+            53,
+            158
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            30.1,
+            74.3
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "car",
+          "score": 0.159,
+          "bbox": [
+            361,
+            113,
+            492,
+            269
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -129.6,
+            83.2
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "car",
+          "score": 0.298,
+          "bbox": [
+            447,
+            89,
+            512,
+            158
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            13.9,
+            -57.5
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.376,
+          "bbox": [
+            78,
+            91,
+            143,
+            152
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -9.7,
+            22.9
+          ]
+        },
+        {
+          "track_id": 39,
+          "class": "motorcycle",
+          "score": 0.35,
+          "bbox": [
+            474,
+            171,
+            511,
+            217
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            3.8,
+            -10.1
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.298,
+          "bbox": [
+            435,
+            107,
+            487,
+            149
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            66.2,
+            10.8
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "bus",
+          "score": 0.215,
+          "bbox": [
+            353,
+            53,
+            465,
+            140
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -166.0,
+            -77.9
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.414,
+          "bbox": [
+            399,
+            94,
+            453,
+            136
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            16.6,
+            1.7
+          ]
+        },
+        {
+          "track_id": 44,
+          "class": "car",
+          "score": 0.14,
+          "bbox": [
+            468,
+            -4,
+            509,
+            108
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            7.3,
+            133.7
+          ]
+        },
+        {
+          "track_id": 46,
+          "class": "car",
+          "score": 0.396,
+          "bbox": [
+            56,
+            129,
+            92,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -36.2,
+            9.9
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "motorcycle",
+          "score": 0.382,
+          "bbox": [
+            62,
+            128,
+            97,
+            154
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -15.1,
+            9.1
+          ]
+        },
+        {
+          "track_id": 47,
+          "class": "car",
+          "score": 0.333,
+          "bbox": [
+            203,
+            117,
+            231,
+            139
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 48,
+          "class": "truck",
+          "score": 0.269,
+          "bbox": [
+            173,
+            92,
+            226,
+            138
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 49,
+          "class": "motorcycle",
+          "score": 0.303,
+          "bbox": [
+            54,
+            132,
+            85,
+            153
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 50,
+          "class": "motorcycle",
+          "score": 0.263,
+          "bbox": [
+            474,
+            55,
+            512,
+            103
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "fps": 14.0,
+      "detected_candidates": 161,
+      "active_tracks_count": 34,
+      "tracks": [
+        {
+          "track_id": 0,
+          "class": "truck",
+          "score": 0.192,
+          "bbox": [
+            38,
+            73,
+            132,
+            133
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            56.3,
+            -0.8
+          ]
+        },
+        {
+          "track_id": 1,
+          "class": "car",
+          "score": 0.271,
+          "bbox": [
+            269,
+            96,
+            293,
+            109
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -4.0,
+            0.2
+          ]
+        },
+        {
+          "track_id": 3,
+          "class": "car",
+          "score": 0.359,
+          "bbox": [
+            176,
+            108,
+            212,
+            140
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            8.0,
+            -5.0
+          ]
+        },
+        {
+          "track_id": 4,
+          "class": "truck",
+          "score": 0.16,
+          "bbox": [
+            29,
+            60,
+            110,
+            116
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            47.0,
+            -29.9
+          ]
+        },
+        {
+          "track_id": 5,
+          "class": "bus",
+          "score": 0.226,
+          "bbox": [
+            402,
+            47,
+            513,
+            145
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            21.4,
+            0.6
+          ]
+        },
+        {
+          "track_id": 6,
+          "class": "truck",
+          "score": 0.295,
+          "bbox": [
+            0,
+            46,
+            58,
+            140
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -10.0,
+            0.4
+          ]
+        },
+        {
+          "track_id": 7,
+          "class": "truck",
+          "score": 0.358,
+          "bbox": [
+            185,
+            100,
+            234,
+            144
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            2.3,
+            -2.0
+          ]
+        },
+        {
+          "track_id": 8,
+          "class": "car",
+          "score": 0.235,
+          "bbox": [
+            416,
+            82,
+            510,
+            164
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            43.9,
+            26.3
+          ]
+        },
+        {
+          "track_id": 9,
+          "class": "car",
+          "score": 0.164,
+          "bbox": [
+            1,
+            117,
+            72,
+            232
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.8,
+            100.7
+          ]
+        },
+        {
+          "track_id": 10,
+          "class": "car",
+          "score": 0.3,
+          "bbox": [
+            456,
+            121,
+            510,
+            175
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            52.1,
+            26.9
+          ]
+        },
+        {
+          "track_id": 12,
+          "class": "motorcycle",
+          "score": 0.337,
+          "bbox": [
+            399,
+            105,
+            438,
+            137
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -7.6,
+            4.1
+          ]
+        },
+        {
+          "track_id": 24,
+          "class": "car",
+          "score": 0.423,
+          "bbox": [
+            457,
+            139,
+            513,
+            213
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -6.1,
+            35.5
+          ]
+        },
+        {
+          "track_id": 25,
+          "class": "car",
+          "score": 0.229,
+          "bbox": [
+            391,
+            12,
+            518,
+            136
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            17.0,
+            -22.5
+          ]
+        },
+        {
+          "track_id": 26,
+          "class": "car",
+          "score": 0.429,
+          "bbox": [
+            14,
+            96,
+            70,
+            138
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            39.9,
+            8.5
+          ]
+        },
+        {
+          "track_id": 27,
+          "class": "car",
+          "score": 0.185,
+          "bbox": [
+            -1,
+            61,
+            79,
+            148
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            24.5,
+            23.3
+          ]
+        },
+        {
+          "track_id": 28,
+          "class": "truck",
+          "score": 0.265,
+          "bbox": [
+            1,
+            68,
+            33,
+            130
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -1.9,
+            60.5
+          ]
+        },
+        {
+          "track_id": 15,
+          "class": "motorcycle",
+          "score": 0.256,
+          "bbox": [
+            454,
+            148,
+            498,
+            204
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            37.9,
+            13.7
+          ]
+        },
+        {
+          "track_id": 30,
+          "class": "car",
+          "score": 0.181,
+          "bbox": [
+            446,
+            119,
+            510,
+            203
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            22.8,
+            -22.9
+          ]
+        },
+        {
+          "track_id": 31,
+          "class": "car",
+          "score": 0.323,
+          "bbox": [
+            0,
+            82,
+            60,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            33.9,
+            62.5
+          ]
+        },
+        {
+          "track_id": 34,
+          "class": "truck",
+          "score": 0.14,
+          "bbox": [
+            368,
+            89,
+            507,
+            274
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -97.4,
+            85.7
+          ]
+        },
+        {
+          "track_id": 35,
+          "class": "motorcycle",
+          "score": 0.35,
+          "bbox": [
+            453,
+            95,
+            513,
+            155
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            19.9,
+            -58.8
+          ]
+        },
+        {
+          "track_id": 37,
+          "class": "car",
+          "score": 0.394,
+          "bbox": [
+            76,
+            88,
+            144,
+            150
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -9.7,
+            15.6
+          ]
+        },
+        {
+          "track_id": 41,
+          "class": "car",
+          "score": 0.257,
+          "bbox": [
+            447,
+            107,
+            497,
+            151
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            84.8,
+            13.2
+          ]
+        },
+        {
+          "track_id": 42,
+          "class": "bus",
+          "score": 0.182,
+          "bbox": [
+            351,
+            46,
+            466,
+            131
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            -144.6,
+            -94.5
+          ]
+        },
+        {
+          "track_id": 20,
+          "class": "car",
+          "score": 0.439,
+          "bbox": [
+            400,
+            92,
+            452,
+            131
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            15.7,
+            -4.2
+          ]
+        },
+        {
+          "track_id": 46,
+          "class": "car",
+          "score": 0.284,
+          "bbox": [
+            49,
+            126,
+            89,
+            155
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -55.2,
+            9.9
+          ]
+        },
+        {
+          "track_id": 11,
+          "class": "motorcycle",
+          "score": 0.363,
+          "bbox": [
+            60,
+            125,
+            98,
+            153
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -14.9,
+            2.3
+          ]
+        },
+        {
+          "track_id": 47,
+          "class": "car",
+          "score": 0.355,
+          "bbox": [
+            202,
+            117,
+            232,
+            140
+          ],
+          "lane": "Host Lane",
+          "v_pixel": [
+            -0.0,
+            11.8
+          ]
+        },
+        {
+          "track_id": 48,
+          "class": "truck",
+          "score": 0.16,
+          "bbox": [
+            138,
+            70,
+            216,
+            132
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            -235.0,
+            -97.2
+          ]
+        },
+        {
+          "track_id": 49,
+          "class": "motorcycle",
+          "score": 0.273,
+          "bbox": [
+            52,
+            130,
+            85,
+            154
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            -53.1,
+            25.8
+          ]
+        },
+        {
+          "track_id": 51,
+          "class": "car",
+          "score": 0.365,
+          "bbox": [
+            113,
+            100,
+            151,
+            128
+          ],
+          "lane": "L1 (Left Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 52,
+          "class": "car",
+          "score": 0.387,
+          "bbox": [
+            407,
+            93,
+            468,
+            139
+          ],
+          "lane": "R1 (Right Lane)",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 53,
+          "class": "motorcycle",
+          "score": 0.422,
+          "bbox": [
+            453,
+            114,
+            511,
+            175
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "track_id": 33,
+          "class": "motorcycle",
+          "score": 0.584,
+          "bbox": [
+            465,
+            156,
+            511,
+            210
+          ],
+          "lane": "Off-road / Shoulder",
+          "v_pixel": [
+            11.8,
+            -14.3
+          ]
+        }
+      ]
+    }
+  ]
+}

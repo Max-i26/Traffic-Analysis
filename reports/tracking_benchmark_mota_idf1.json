@@ -1,0 +1,37 @@
+{
+  "benchmark_dataset": "UA-DETRAC MVI_39501 (100 continuous traffic frames)",
+  "oracle_tracker": {
+    "MOTA": 1.0,
+    "MOTP_mean_iou": 0.9679,
+    "IDF1": 1.0,
+    "IDP": 1.0,
+    "IDR": 1.0,
+    "HOTA": 1.0,
+    "DetA": 1.0,
+    "AssA": 1.0,
+    "id_switches": 0,
+    "fragmentations": 0,
+    "false_positives": 0,
+    "misses": 0,
+    "mostly_tracked": 10,
+    "mostly_lost": 0,
+    "total_ground_truth_instances": 527
+  },
+  "end_to_end_pipeline": {
+    "MOTA": 0.0,
+    "MOTP_mean_iou": NaN,
+    "IDF1": 0.0,
+    "IDP": NaN,
+    "IDR": 0.0,
+    "HOTA": 0.0,
+    "DetA": 0.0,
+    "AssA": 0.0,
+    "id_switches": 0,
+    "fragmentations": 0,
+    "false_positives": 0,
+    "misses": 527,
+    "mostly_tracked": 0,
+    "mostly_lost": 10,
+    "total_ground_truth_instances": 527
+  }
+}

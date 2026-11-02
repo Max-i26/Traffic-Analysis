@@ -1,0 +1,85 @@
+{
+  "threshold_sweep": [
+    {
+      "threshold": 0.1,
+      "tp": 170,
+      "fp": 9907,
+      "precision": 0.0169,
+      "recall": 0.3114,
+      "f1_score": 0.032
+    },
+    {
+      "threshold": 0.15,
+      "tp": 167,
+      "fp": 7639,
+      "precision": 0.0214,
+      "recall": 0.3059,
+      "f1_score": 0.04
+    },
+    {
+      "threshold": 0.2,
+      "tp": 165,
+      "fp": 6279,
+      "precision": 0.0256,
+      "recall": 0.3022,
+      "f1_score": 0.0472
+    },
+    {
+      "threshold": 0.25,
+      "tp": 152,
+      "fp": 4451,
+      "precision": 0.033,
+      "recall": 0.2784,
+      "f1_score": 0.059
+    },
+    {
+      "threshold": 0.3,
+      "tp": 108,
+      "fp": 2144,
+      "precision": 0.048,
+      "recall": 0.1978,
+      "f1_score": 0.0772
+    },
+    {
+      "threshold": 0.35,
+      "tp": 55,
+      "fp": 473,
+      "precision": 0.1042,
+      "recall": 0.1007,
+      "f1_score": 0.1024
+    },
+    {
+      "threshold": 0.4,
+      "tp": 14,
+      "fp": 84,
+      "precision": 0.1429,
+      "recall": 0.0256,
+      "f1_score": 0.0435
+    },
+    {
+      "threshold": 0.5,
+      "tp": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.0018,
+      "f1_score": 0.0037
+    }
+  ],
+  "scale_localization": {
+    "small": {
+      "count": 73,
+      "mean_iou": 0.6136,
+      "ap75_rate_percent": 8.22
+    },
+    "medium": {
+      "count": 76,
+      "mean_iou": 0.6126,
+      "ap75_rate_percent": 7.89
+    },
+    "large": {
+      "count": 18,
+      "mean_iou": 0.6439,
+      "ap75_rate_percent": 16.67
+    }
+  }
+}

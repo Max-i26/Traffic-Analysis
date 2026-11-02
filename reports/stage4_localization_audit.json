@@ -1,0 +1,40 @@
+{
+  "candidate_generation": {
+    "4": 8164.8,
+    "8": 2106.8,
+    "16": 526.9
+  },
+  "class_predictions": {
+    "car": 5000,
+    "bus": 871,
+    "truck": 4710,
+    "motorcycle": 203
+  },
+  "class_true_positives": {
+    "car": 165,
+    "bus": 0,
+    "truck": 4,
+    "motorcycle": 1
+  },
+  "score_distribution": {
+    "tp_by_score": {
+      "0.01-0.10": 0,
+      "0.10-0.25": 18,
+      "0.25-0.50": 151,
+      ">0.50": 1
+    },
+    "fp_by_score": {
+      "0.01-0.10": 707,
+      "0.10-0.25": 5456,
+      "0.25-0.50": 4451,
+      ">0.50": 0
+    }
+  },
+  "iou_distribution": {
+    "mean_iou": 0.6178,
+    "iou_50_60": 86,
+    "iou_60_70": 50,
+    "iou_70_75": 18,
+    "iou_75_plus": 16
+  }
+}
